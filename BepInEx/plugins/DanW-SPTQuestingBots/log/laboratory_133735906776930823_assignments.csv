@@ -1,0 +1,12 @@
+Bot Name,Bot Nickname,Bot Difficulty,Bot Level,Assignment Status,Quest Name,Objective Name,Step Number,Start Time,End Time
+Bot1,"Miraki",normal,8,Active,"Main Work Area 2nd Floor Patrol","Main Work Area 2nd Floor Patrol: Objective #5","2","18:16:11","N/A",
+Bot6,"DannyR121",normal,10,Active,"Main Working Area West","Main Working Area West: Objective #6","1","18:16:11","N/A",
+Bot3,"Fershte",normal,3,Completed,"Parking","Parking: Objective #4","1","18:16:11","18:16:15",
+Bot3,"Fershte",normal,3,Completed,"Parking","Parking: Objective #1","1","18:16:20","18:16:33",
+Bot3,"Fershte",normal,3,Completed,"Parking","Parking: Objective #2","1","18:16:39","18:16:41",
+Bot3,"Fershte",normal,3,Completed,"Parking","Parking: Objective #3","1","18:16:46","18:16:50",
+Bot3,"Fershte",normal,3,Pending,"Conference Room","Conference Room: Objective #1","1","18:16:55","N/A",
+Bot5,"RainbowPC",normal,5,Pending,"Parking Gate Controls","Parking Gate Controls: Objective #1","1","18:16:11","N/A",
+Bot4,"Reis",normal,9,Pending,"Negotiation Room","Negotiation Room: Objective #2","1","18:16:11","N/A",
+Bot2,"Akiw",normal,12,Pending,"Server Room","Server Room: Objective #4","1","18:16:11","N/A",
+Bot7,"jennacide",normal,2,Active,"Hangar Gate Controls","Hangar Gate Controls: Objective #1","1","18:16:11","N/A",

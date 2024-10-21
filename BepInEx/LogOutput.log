@@ -1,0 +1,1297 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - EscapeFromTarkov (10/18/2024 8:48:12 PM)
+[Info   :   BepInEx] Running under Unity v0.14.9.3062
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [IcyClawz.CustomInteractions.Prepatch 1.5.0.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [SkillsExtended_PrePatch 1.3.1.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [spt-prepatch 3.9.8.0]
+[Info   :   BepInEx] 4 patcher plugins loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [IcyClawz.CustomInteractions.Prepatch]
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [Patcher]
+[Info   :Skills Extended PrePatch] Patching Complete!
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [SPT.PrePatch.SPTPrePatcher]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 24 plugins to load
+[Info   :   BepInEx] Loading [Graphics 1.6.3]
+[Info   :   BepInEx] Loading [Unity Toolkit 1.0.1]
+[Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
+[Info   :   BepInEx] Loading [SPT.Core 3.9.8]
+[Info   :  SPT.Core] Loading: SPT.Core
+[Info   :ModulePatch] Enabled patch ConsistencySinglePatch
+[Info   :ModulePatch] Enabled patch ConsistencyMultiPatch
+[Info   :ModulePatch] Enabled patch GameValidationPatch
+[Info   :ModulePatch] Enabled patch BattlEyePatch
+[Info   :ModulePatch] Enabled patch SslCertificatePatch
+[Info   :ModulePatch] Enabled patch UnityWebRequestPatch
+[Info   :ModulePatch] Enabled patch WebSocketPatch
+[Info   :ModulePatch] Enabled patch TransportPrefixPatch
+[Info   :  SPT.Core] Completed: SPT.Core
+[Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.5.2]
+[Info   :ModulePatch] Enabled patch DebugPatch
+[Info   :ModulePatch] Enabled patch WaypointPatch
+[Info   :ModulePatch] Enabled patch DoorLinkPatch
+[Info   :ModulePatch] Enabled patch DoorLinkStateChangePatch
+[Info   :ModulePatch] Enabled patch SwitchDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch ExfilDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch FindPathPatch
+[Info   :   BepInEx] Loading [DrakiaXYZ-BigBrain 1.1.0]
+[Info   :DrakiaXYZ-BigBrain] Loading: DrakiaXYZ-BigBrain
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivatePatch
+[Info   :ModulePatch] Enabled patch BotBrainCreateLogicNodePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainUpdatePatch
+[Info   :ModulePatch] Enabled patch BotAgentUpdatePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivateLayerPatch
+[Info   :ModulePatch] Enabled patch BotStandartBotBrainActivatePatch
+[Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
+[Info   :   BepInEx] Loading [DanW-QuestingBots 0.7.0]
+[Info   :DanW-QuestingBots] Loading QuestingBots...
+[Info   :DanW-QuestingBots] Loading QuestingBots...getting configuration data...
+[Info   :RequestHandler] [REQUEST]: /QuestingBots/GetConfig
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /QuestingBots/GetConfig
+[Info   :DanW-QuestingBots] Loading QuestingBots...enabling patches...
+[Info   :ModulePatch] Enabled patch TarkovInitPatch
+[Info   :ModulePatch] Enabled patch AddActivePlayerPatch
+[Info   :ModulePatch] Enabled patch BotsControllerStopPatch
+[Info   :ModulePatch] Enabled patch OnGameStartedPatch
+[Info   :ModulePatch] Enabled patch BotOwnerBrainActivatePatch
+[Info   :ModulePatch] Enabled patch IsFollowerSuitableForBossPatch
+[Info   :ModulePatch] Enabled patch OnBeenKilledByAggressorPatch
+[Info   :ModulePatch] Enabled patch AirdropLandPatch
+[Info   :DanW-QuestingBots] Found type for ServerRequestPatch: Class270
+[Info   :ModulePatch] Enabled patch ServerRequestPatch
+[Info   :ModulePatch] Enabled patch CheckLookEnemyPatch
+[Info   :DanW-QuestingBots] Loading QuestingBots...changing bot brains for sleeping: Assault, CursAssault, Obdolbs, BossBully, BossSanitar, BossGluhar, BossKojaniy, BossBoar, BossKolontay, Tagilla, Killa, ExUsec, PMC, Knight, ArenaFighter, FollowerBully, FollowerSanitar, TagillaFollower, FollowerGluharAssault, FollowerGluharProtect, FollowerGluharScout, FollowerKojaniy, BoarSniper, FlBoar, FlBoarCl, FlBoarSt, FlKlnAslt, KolonSec, BigPipe, BirdEye, SectantWarrior, SectantPriest, Marksman, BossZryachiy, Fl_Zraychiy
+[Info   :DanW-QuestingBots] Loading QuestingBots...changing bot brains for questing: Assault, CursAssault, Obdolbs, BossBully, BossSanitar, BossGluhar, BossKojaniy, BossBoar, BossKolontay, Tagilla, Killa, ExUsec, PMC, Knight, ArenaFighter, FollowerBully, FollowerSanitar, TagillaFollower, FollowerGluharAssault, FollowerGluharProtect, FollowerGluharScout, FollowerKojaniy, BoarSniper, FlBoar, FlBoarCl, FlBoarSt, FlKlnAslt, KolonSec, BigPipe, BirdEye, SectantWarrior, SectantPriest
+[Info   :DanW-QuestingBots] Loading QuestingBots...changing bot brains for following: Assault, CursAssault, Obdolbs, BossBully, BossSanitar, BossGluhar, BossKojaniy, BossBoar, BossKolontay, Tagilla, Killa, ExUsec, PMC, Knight, ArenaFighter, FollowerBully, FollowerSanitar, TagillaFollower, FollowerGluharAssault, FollowerGluharProtect, FollowerGluharScout, FollowerKojaniy, BoarSniper, FlBoar, FlBoarCl, FlBoarSt, FlKlnAslt, KolonSec, BigPipe, BirdEye, SectantWarrior, SectantPriest, Marksman, BossZryachiy, Fl_Zraychiy
+[Info   :DanW-QuestingBots] Loading QuestingBots...done.
+[Info   :   BepInEx] Loading [Quests Extended 1.0.1]
+[Info   :Quests Extended] Cached Reflection Objects
+[Info   :ModulePatch] Enabled patch OnGameStartedPatch
+[Warning:  HarmonyX] SetConditionCurrentValuePatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void GClass3248<GClass1260>::SetConditionCurrentValue(IConditionCounter conditional, EFT.Quests.EQuestStatus status, EFT.Quests.Condition condition, float value, bool notify) instead of virtual void GClass3248<GClass1260>::SetConditionCurrentValue(IConditionCounter conditional, EFT.Quests.EQuestStatus status, EFT.Quests.Condition condition, float value, bool notify).
+[Info   :ModulePatch] Enabled patch SetConditionCurrentValuePatch
+[Info   :   BepInEx] Loading [TraderServicesFix 1.0.0]
+[Info   :   BepInEx] Loading [dvize.Donuts 1.6.1]
+[Info   :ModulePatch] Enabled patch NewGameDonutsPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch MatchEndPlayerDisposePatch
+[Info   :ModulePatch] Enabled patch PatchStandbyTeleport
+[Info   :ModulePatch] Enabled patch BotProfilePreparationHook
+[Info   :ModulePatch] Enabled patch AddEnemyPatch
+[Info   :ModulePatch] Enabled patch ShootDataNullRefPatch
+[Info   :ModulePatch] Enabled patch CoverPointMasterNullRef
+[Info   :ModulePatch] Enabled patch DelayedGameStartPatch
+[Info   :ModulePatch] Enabled patch PlayerFireControlPatchGetter
+[Info   :ModulePatch] Enabled patch PlayerFireControlPatchSetter
+[Info   :   BepInEx] Loading [SPT.Custom 3.9.8]
+[Info   :SPT.Custom] Loading: SPT.Custom
+[Info   :ModulePatch] Enabled patch EasyAssetsPatch
+[Info   :ModulePatch] Enabled patch EasyBundlePatch
+[Info   :ModulePatch] Enabled patch BossSpawnChancePatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch
+[Info   :ModulePatch] Enabled patch CoreDifficultyPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidMenuPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Enabled patch VersionLabelPatch
+[Info   :ModulePatch] Enabled patch IsEnemyPatch
+[Info   :ModulePatch] Enabled patch BotCalledDataTryCallPatch
+[Info   :ModulePatch] Enabled patch BotOwnerDisposePatch
+[Info   :ModulePatch] Enabled patch LocationLootCacheBustingPatch
+[Info   :ModulePatch] Enabled patch CheckAndAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotSelfEnemyPatch
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Enabled patch AirdropPatch
+[Info   :ModulePatch] Enabled patch AirdropFlarePatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bossconvert
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bossconvert
+[Info   :ModulePatch] Enabled patch CustomAiPatch
+[Info   :ModulePatch] Enabled patch AddTraitorScavsPatch
+[Info   :ModulePatch] Enabled patch ExitWhileLootingPatch
+[Info   :ModulePatch] Enabled patch QTEPatch
+[Info   :ModulePatch] Enabled patch PmcFirstAidPatch
+[Info   :ModulePatch] Enabled patch SettingsLocationPatch
+[Info   :ModulePatch] Enabled patch SetLocationIdOnRaidStartPatch
+[Info   :ModulePatch] Enabled patch RagfairFeePatch
+[Info   :ModulePatch] Enabled patch ScavQuestPatch
+[Info   :ModulePatch] Enabled patch FixBrokenSpawnOnSandboxPatch
+[Info   :ModulePatch] Enabled patch BTRControllerInitPatch
+[Info   :ModulePatch] Enabled patch BTRPathLoadPatch
+[Info   :ModulePatch] Enabled patch BTRActivateTraderDialogPatch
+[Info   :ModulePatch] Enabled patch BTRInteractionPatch
+[Info   :ModulePatch] Enabled patch BTRExtractPassengersPatch
+[Info   :ModulePatch] Enabled patch BTRBotAttachPatch
+[Info   :ModulePatch] Enabled patch BTRReceiveDamageInfoPatch
+[Info   :ModulePatch] Enabled patch BTRTurretCanShootPatch
+[Info   :ModulePatch] Enabled patch BTRTurretDefaultAimingPositionPatch
+[Info   :ModulePatch] Enabled patch BTRIsDoorsClosedPath
+[Info   :ModulePatch] Enabled patch BTRPatch
+[Info   :ModulePatch] Enabled patch BTRTransferItemsPatch
+[Info   :ModulePatch] Enabled patch BTREndRaidItemDeliveryPatch
+[Info   :ModulePatch] Enabled patch BTRDestroyAtRaidEndPatch
+[Warning:  HarmonyX] BTRVehicleMovementSpeedPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void VehicleBase::Update() instead of virtual void VehicleBase::Update().
+[Info   :ModulePatch] Enabled patch BTRVehicleMovementSpeedPatch
+[Info   :ModulePatch] Enabled patch BTRPathConfigMapPrefixPatch
+[Info   :ModulePatch] Enabled patch ScavItemCheckmarkPatch
+[Info   :ModulePatch] Enabled patch ResetTraderServicesPatch
+[Info   :ModulePatch] Enabled patch CultistAmuletRemovalPatch
+[Info   :ModulePatch] Enabled patch HalloweenExtractPatch
+[Info   :ModulePatch] Enabled patch ClampRagdollPatch
+[Info   :ModulePatch] Enabled patch DisablePvEPatch
+[Info   :ModulePatch] Enabled patch InsurancePlaceItem
+[Info   :ModulePatch] Enabled patch FileCachePatch
+[Info   :ModulePatch] Enabled patch PMCSpawnParamPatch
+[Info   :ModulePatch] Enabled patch FixBotgroupMarkofTheUnknown
+[Info   :SPT.Custom] Completed: SPT.Custom
+[Info   :   BepInEx] Loading [spt.Singleplayer 3.9.8]
+[Info   :spt.Singleplayer] Loading: SPT.SinglePlayer
+[Info   :ModulePatch] Enabled patch OfflineSaveProfilePatch
+[Info   :ModulePatch] Enabled patch ExperienceGainPatch
+[Info   :ModulePatch] Enabled patch ScavExperienceGainPatch
+[Info   :ModulePatch] Enabled patch MainMenuControllerPatch
+[Info   :ModulePatch] Enabled patch PlayerPatch
+[Info   :ModulePatch] Enabled patch SelectLocationScreenPatch
+[Info   :ModulePatch] Enabled patch InsuranceScreenPatch
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Enabled patch GetNewBotTemplatesPatch
+[Info   :ModulePatch] Enabled patch RemoveUsedBotProfilePatch
+[Info   :ModulePatch] Enabled patch DogtagPatch
+[Info   :ModulePatch] Enabled patch LoadOfflineRaidScreenPatch
+[Info   :ModulePatch] Enabled patch ScavPrefabLoadPatch
+[Info   :ModulePatch] Enabled patch ScavProfileLoadPatch
+[Info   :ModulePatch] Enabled patch ScavExfilPatch
+[Info   :ModulePatch] Enabled patch ExfilPointManagerPatch
+[Info   :ModulePatch] Enabled patch TinnitusFixPatch
+[Info   :ModulePatch] Enabled patch MaxBotPatch
+[Info   :ModulePatch] Enabled patch SpawnPmcPatch
+[Info   :ModulePatch] Enabled patch PostRaidHealingPricePatch
+[Info   :ModulePatch] Enabled patch EndByTimerPatch
+[Info   :ModulePatch] Enabled patch InRaidQuestAvailablePatch
+[Info   :ModulePatch] Enabled patch PostRaidHealScreenPatch
+[Info   :ModulePatch] Enabled patch VoIPTogglerPatch
+[Info   :ModulePatch] Enabled patch MidRaidQuestChangePatch
+[Info   :ModulePatch] Enabled patch HealthControllerPatch
+[Info   :ModulePatch] Enabled patch LighthouseBridgePatch
+[Info   :ModulePatch] Enabled patch LighthouseTransmitterPatch
+[Info   :ModulePatch] Enabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Enabled patch SmokeGrenadeFuseSoundFixPatch
+[Info   :ModulePatch] Enabled patch PlayerToggleSoundFixPatch
+[Info   :ModulePatch] Enabled patch PluginErrorNotifierPatch
+[Info   :ModulePatch] Enabled patch SpawnProcessNegativeValuePatch
+[Info   :ModulePatch] Enabled patch InsuredItemManagerStartPatch
+[Info   :ModulePatch] Enabled patch MapReadyButtonPatch
+[Info   :ModulePatch] Enabled patch LabsKeycardRemovalPatch
+[Info   :ModulePatch] Enabled patch ScavLateStartPatch
+[Info   :ModulePatch] Enabled patch GetTraderServicesPatch
+[Info   :ModulePatch] Enabled patch PurchaseTraderServicePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllPriceStorePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllRequestPatch
+[Info   :ModulePatch] Enabled patch HideoutQuestIgnorePatch
+[Info   :ModulePatch] Enabled patch LightKeeperServicesPatch
+[Info   :ModulePatch] Enabled patch ScavEncyclopediaPatch
+[Info   :ModulePatch] Enabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Enabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Enabled patch ArmorDamageCounterPatch
+[Info   :ModulePatch] Enabled patch FixAchievementsPatch
+[Info   :spt.Singleplayer] Completed: SPT.SinglePlayer
+[Info   :   BepInEx] Loading [SPT.Debugging 3.9.8]
+[Info   :SPT.Debugging] Loading: SPT.Debugging
+[Info   :ModulePatch] Enabled patch EndRaidDebug
+[Info   :ModulePatch] Enabled patch LoggerClassLogPatch
+[Info   :SPT.Debugging] Completed: SPT.Debugging
+[Info   :   BepInEx] Loading [Fika.Core 0.9.9015]
+[Info   : Fika.Core] Received NatPunchServer config from server:
+[Info   : Fika.Core] Enable: False
+[Info   : Fika.Core] Port: 6790
+[Info   : Fika.Core] NatIntroduceAmount: 1
+[Info   :ModulePatch] Enabled patch FikaVersionLabel_Patch
+[Info   :ModulePatch] Enabled patch DisableReadyButton_Patch
+[Info   :ModulePatch] Enabled patch DisableInsuranceReadyButton_Patch
+[Info   :ModulePatch] Enabled patch DisableMatchSettingsReadyButton_Patch
+[Info   :ModulePatch] Enabled patch TarkovApplication_LocalGamePreparer_Patch
+[Info   :ModulePatch] Enabled patch TarkovApplication_LocalGameCreator_Patch
+[Info   :ModulePatch] Enabled patch DeathFade_Patch
+[Info   :ModulePatch] Enabled patch NonWaveSpawnScenario_Patch
+[Info   :ModulePatch] Enabled patch WaveSpawnScenario_Patch
+[Info   :ModulePatch] Enabled patch WeatherNode_Patch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreen_Awake_Patch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreen_Show_Patch
+[Info   :ModulePatch] Enabled patch Minefield_method_2_Patch
+[Info   :ModulePatch] Enabled patch BotCacher_Patch
+[Info   :ModulePatch] Enabled patch AbstractGame_InRaid_Patch
+[Info   :ModulePatch] Enabled patch DisconnectButton_Patch
+[Info   :ModulePatch] Enabled patch ChangeGameModeButton_Patch
+[Info   :ModulePatch] Enabled patch MenuTaskBar_Patch
+[Info   :ModulePatch] Enabled patch GameWorld_Create_Patch
+[Info   :ModulePatch] Enabled patch World_AddSpawnQuestLootPacket_Patch
+[Info   :ModulePatch] Enabled patch TOS_Patch
+[Info   :ModulePatch] Disabled patch BotDifficultyPatch
+[Info   :ModulePatch] Disabled patch AirdropPatch
+[Info   :ModulePatch] Disabled patch AirdropFlarePatch
+[Info   :ModulePatch] Disabled patch VersionLabelPatch
+[Info   :ModulePatch] Disabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Disabled patch OfflineSpawnPointPatch
+[Info   :ModulePatch] Disabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Disabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Disabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Disabled patch MaxBotPatch
+[Info   :ModulePatch] Disabled patch LabsKeycardRemovalPatch
+[Info   :ModulePatch] Disabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Disabled patch ArmorDamageCounterPatch
+[Info   :ModulePatch] Disabled patch DogtagPatch
+[Info   :ModulePatch] Disabled patch OfflineSaveProfilePatch
+[Info   :ModulePatch] Disabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Disabled patch DisablePvEPatch
+[Info   :ModulePatch] Disabled patch ClampRagdollPatch
+[Info   :ModulePatch] Disabled patch LighthouseBridgePatch
+[Info   :ModulePatch] Disabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Disabled patch BTRInteractionPatch
+[Info   :ModulePatch] Disabled patch BTRExtractPassengersPatch
+[Info   :ModulePatch] Disabled patch BTRPatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch_Override
+[Info   :ModulePatch] Enabled patch ScavProfileLoad_Override
+[Info   :ModulePatch] Enabled patch MaxBotPatch_Override
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatch_Override
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatch_Override
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatch_Override
+[Info   :ModulePatch] Enabled patch AirdropBox_Patch
+[Info   :ModulePatch] Enabled patch FikaAirdropFlare_Patch
+[Info   :ModulePatch] Enabled patch LighthouseBridge_Patch
+[Info   :ModulePatch] Enabled patch LighthouseMines_Patch
+[Info   : Fika.Core] Received config from server:
+[Info   : Fika.Core] UseBTR: True
+[Info   : Fika.Core] FriendlyFire: True
+[Info   : Fika.Core] DynamicVExfils: False
+[Info   : Fika.Core] AllowFreeCam: False
+[Info   : Fika.Core] AllowSpectateFreeCam: False
+[Info   : Fika.Core] AllowItemSending: True
+[Info   : Fika.Core] BlacklistedItems: 
+[Info   : Fika.Core] ForceSaveOnDeath: False
+[Info   : Fika.Core] UseInertia: True
+[Info   : Fika.Core] SharedQuestProgression: False
+[Info   : Fika.Core] Fika is loaded! Running version: 0.9.9015.15435
+[Info   :RequestHandler] [REQUEST]: /singleplayer/airdrop/config
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/airdrop/config
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/difficulty/core/core
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/difficulty/core/core
+[Info   :ModulePatch] Enabled patch ItemContext_Patch
+[Info   :   BepInEx] Loading [IcyClawz.CustomInteractions 1.5.0]
+[Info   :ModulePatch] Enabled patch ItemUiContextPatch
+[Info   :ModulePatch] Enabled patch InteractionButtonsContainerPatch
+[Info   :   BepInEx] Loading [Kaeno-TraderScrolling 1.1.0]
+[Info   :ModulePatch] Enabled patch TraderScrollingPatch
+[Info   :ModulePatch] Enabled patch PlayerCardPatch
+[Info   :   BepInEx] Loading [DynamicMaps 0.4.1]
+[Warning:  HarmonyX] BattleUIScreenShowPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3136, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner) instead of void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3136, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner).
+[Info   :ModulePatch] Enabled patch BattleUIScreenShowPatch
+[Info   :ModulePatch] Enabled patch CommonUIAwakePatch
+[Info   :ModulePatch] Enabled patch MapScreenShowPatch
+[Info   :ModulePatch] Enabled patch MapScreenClosePatch
+[Info   :ModulePatch] Enabled patch GameWorldOnDestroyPatch
+[Info   :ModulePatch] Enabled patch GameWorldUnregisterPlayerPatch
+[Info   :ModulePatch] Enabled patch GameWorldRegisterLootItemPatch
+[Info   :ModulePatch] Enabled patch GameWorldDestroyLootPatch
+[Info   :ModulePatch] Enabled patch AirdropBoxOnBoxLandPatch
+[Info   :ModulePatch] Enabled patch PlayerOnDeadPatch
+[Info   :ModulePatch] Enabled patch PlayerInventoryThrowItemPatch
+[Info   :   BepInEx] Loading [VCQL-Zones 2.0.2]
+[Info   :ModulePatch] Enabled patch GameWorldPatch
+[Info   :   BepInEx] Loading [HealingAutoCancel 1.0.0]
+[Info   :ModulePatch] Enabled patch HealingAutoCancelPatch
+[Info   :   BepInEx] Loading [BossNotifier 1.5.1]
+[Info   :ModulePatch] Enabled patch BossLocationSpawnPatch
+[Info   :ModulePatch] Enabled patch NewGamePatch
+[Info   :ModulePatch] Enabled patch BotBossPatch
+[Info   :BossNotifier] Plugin BossNotifier is loaded!
+[Info   :   BepInEx] Loading [LootingBots 1.3.5]
+[Info   :ModulePatch] Enabled patch CleanCacheOnRaidEnd
+[Info   :ModulePatch] Enabled patch ClearCacheOnDeath
+[Info   :ModulePatch] Enabled patch EnableWeaponSwitching
+[Info   :ModulePatch] Enabled patch InteractPatch
+[Info   :ModulePatch] Enabled patch InventoryClosePatch
+[Info   :ModulePatch] Enabled patch RemoveComponent
+[Info   :   BepInEx] Loading [SAIN 3.1.0]
+[Info   :ModulePatch] Enabled patch StopRefillMagsPatch
+[Info   :ModulePatch] Enabled patch SetEnvironmentPatch
+[Info   :ModulePatch] Enabled patch SetPanicPointPatch
+[Info   :ModulePatch] Enabled patch AddPointToSearchPatch
+[Info   :ModulePatch] Enabled patch TurnDamnLightOffPatch
+[Info   :ModulePatch] Enabled patch GrenadeThrownActionPatch
+[Info   :ModulePatch] Enabled patch GrenadeExplosionActionPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyLatePatch
+[Info   :ModulePatch] Enabled patch HaveSeenEnemyPatch
+[Info   :ModulePatch] Enabled patch StopSetToNavMeshPatch
+[Info   :ModulePatch] Enabled patch FightShallReloadFixPatch
+[Info   :ModulePatch] Enabled patch EnableVaultPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch FixItemTakerPatch
+[Info   :ModulePatch] Enabled patch FixItemTakerPatch2
+[Info   :ModulePatch] Enabled patch RotateClampPatch
+[Info   :ModulePatch] Enabled patch EncumberedPatch
+[Info   :ModulePatch] Enabled patch DoorOpenerPatch
+[Info   :ModulePatch] Enabled patch DoorDisabledPatch
+[Info   :ModulePatch] Enabled patch CrawlPatch
+[Info   :ModulePatch] Enabled patch CrawlPatch2
+[Info   :ModulePatch] Enabled patch PoseStaminaPatch
+[Info   :ModulePatch] Enabled patch AimStaminaPatch
+[Info   :ModulePatch] Enabled patch GlobalShootSettingsPatch
+[Info   :ModulePatch] Enabled patch GlobalLookPatch
+[Info   :ModulePatch] Enabled patch TryPlayShootSoundPatch
+[Info   :ModulePatch] Enabled patch OnMakingShotPatch
+[Info   :ModulePatch] Enabled patch HearingSensorPatch
+[Info   :ModulePatch] Enabled patch VoicePatch
+[Info   :ModulePatch] Enabled patch GrenadeCollisionPatch
+[Info   :ModulePatch] Enabled patch GrenadeCollisionPatch2
+[Info   :ModulePatch] Enabled patch ToggleSoundPatch
+[Info   :ModulePatch] Enabled patch SpawnInHandsSoundPatch
+[Info   :ModulePatch] Enabled patch PlaySwitchHeadlightSoundPatch
+[Info   :ModulePatch] Enabled patch BulletImpactPatch
+[Info   :ModulePatch] Enabled patch TreeSoundPatch
+[Info   :ModulePatch] Enabled patch DoorBreachSoundPatch
+[Info   :ModulePatch] Enabled patch DoorOpenSoundPatch
+[Info   :ModulePatch] Enabled patch FootstepSoundPatch
+[Info   :ModulePatch] Enabled patch SprintSoundPatch
+[Info   :ModulePatch] Enabled patch GenericMovementSoundPatch
+[Info   :ModulePatch] Enabled patch JumpSoundPatch
+[Info   :ModulePatch] Enabled patch DryShotPatch
+[Info   :ModulePatch] Enabled patch ProneSoundPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch2
+[Info   :ModulePatch] Enabled patch AimSoundPatch
+[Info   :ModulePatch] Enabled patch LootingSoundPatch
+[Info   :ModulePatch] Enabled patch SetInHandsGrenadePatch
+[Info   :ModulePatch] Enabled patch SetInHandsFoodPatch
+[Info   :ModulePatch] Enabled patch SetInHandsMedsPatch
+[Info   :ModulePatch] Enabled patch JumpPainPatch
+[Info   :ModulePatch] Enabled patch PlayerHurtPatch
+[Info   :ModulePatch] Enabled patch PlayerTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkManualUpdatePatch
+[Info   :ModulePatch] Enabled patch DisableLookUpdatePatch
+[Info   :ModulePatch] Enabled patch UpdateLightEnablePatch
+[Info   :ModulePatch] Enabled patch UpdateLightEnablePatch2
+[Info   :ModulePatch] Enabled patch ToggleNightVisionPatch
+[Info   :ModulePatch] Enabled patch SetPartPriorityPatch
+[Info   :ModulePatch] Enabled patch GlobalLookSettingsPatch
+[Info   :ModulePatch] Enabled patch WeatherTimeVisibleDistancePatch
+[Info   :ModulePatch] Enabled patch NoAIESPPatch
+[Info   :ModulePatch] Enabled patch BotLightTurnOnPatch
+[Info   :ModulePatch] Enabled patch VisionSpeedPatch
+[Info   :ModulePatch] Enabled patch VisionDistancePatch
+[Info   :ModulePatch] Enabled patch CheckFlashlightPatch
+[Info   :ModulePatch] Enabled patch DoHitAffectPatch
+[Info   :ModulePatch] Enabled patch HitAffectApplyPatch
+[Info   :ModulePatch] Enabled patch PlayerHitReactionDisablePatch
+[Info   :ModulePatch] Enabled patch SetAimStatusPatch
+[Info   :ModulePatch] Enabled patch AimOffsetPatch
+[Info   :ModulePatch] Enabled patch AimTimePatch
+[Info   :ModulePatch] Enabled patch ForceNoHeadAimPatch
+[Info   :ModulePatch] Enabled patch AimRotateSpeedPatch
+[Info   :ModulePatch] Enabled patch ResetGrenadePatch
+[Info   :ModulePatch] Enabled patch SetGrenadePatch
+[Info   :ModulePatch] Enabled patch FullAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch2
+[Info   :ModulePatch] Enabled patch SemiAutoPatch3
+[Info   :ModulePatch] Enabled patch AddBotComponentPatch
+[Info   :ModulePatch] Enabled patch AddGameWorldPatch
+[Info   :ModulePatch] Enabled patch GetBotController
+[Info   :ModulePatch] Enabled patch GetBotSpawner
+[Info   :   BepInEx] Loading [MoreCheckmarks 1.5.14]
+[Info   :   BepInEx] Loading [DrakiaXYZ-QuickMoveToContainer 1.1.0]
+[Info   :ModulePatch] Enabled patch QuickFindPatch
+[Message:   BepInEx] Chainloader startup complete
+[Info   :ModulePatch] Enabled patch AmandsPlayerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsNVGPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsApplyNVGPatch
+[Warning:  HarmonyX] AmandsGraphicsHBAOPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset) instead of void HBAO_Core::ApplyPreset(HBAO_Core+Preset preset).
+[Info   :ModulePatch] Enabled patch AmandsGraphicsHBAOPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsPrismEffectsPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticSightPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsCameraClassPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsmethod_22Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsTacticalComboVisualControllerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsMethod_7Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurHitPatch
+[Warning:  HarmonyX] AmandsBattleUIScreenPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3136, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner) instead of void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3136, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner).
+[Info   :ModulePatch] Enabled patch AmandsBattleUIScreenPatch
+[Info   :ModulePatch] Enabled patch AmandsEffectsControllerPatch
+[Info   :Quests Extended] Loaded 5 custom quests
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST]: /singleplayer/release
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/release
+[Info   :RequestHandler] [REQUEST]: /singleplayer/enableBSGlogging
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/enableBSGlogging
+[Info   :MoreCheckmarks] MoreCheckmarks Started
+[Info   :MoreCheckmarks] Configs loaded
+[Info   :MoreCheckmarks] Assets loaded
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/quests
+[Info   :MoreCheckmarks] 	Items
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/items
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/assorts
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/productions
+[Warning:DonutsPlugin] Loaded 12 Donuts Scenario Folders
+[Warning:DonutsPlugin] Loaded 4 Donuts Scenario Folders
+[Warning:DonutsPlugin] Loaded 12 Donuts Scenario Folders
+[Warning:DonutsPlugin] Loaded 4 Donuts Scenario Folders
+[Warning:DonutsPlugin] Adding scenario: live-like
+[Warning:DonutsPlugin] Adding scenario: live-like-alt
+[Warning:DonutsPlugin] Adding scenario: morescavs
+[Warning:DonutsPlugin] Adding scenario: morepmcs
+[Warning:DonutsPlugin] Adding scenario: crazyraids
+[Warning:DonutsPlugin] Adding scenario: impossibleraids
+[Warning:DonutsPlugin] Adding scenario: quietraids
+[Warning:DonutsPlugin] Adding scenario: scav-raids
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-live-like
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-live-like-alt
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-morescavs
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-quietraids
+[Warning:DonutsPlugin] Adding scenario: Live Like (Random)
+[Warning:DonutsPlugin] Adding scenario: Starting PMCs Only (Random)
+[Warning:DonutsPlugin] Adding scenario: A Whole Lotta SCAVs (Random)
+[Warning:DonutsPlugin] Adding scenario: Death Wish (Random)
+[Warning:DonutsPlugin] Loaded 16 PMC Scenarios and Finished Generating
+[Warning:DonutsPlugin] Adding scenario: live-like
+[Warning:DonutsPlugin] Adding scenario: live-like-alt
+[Warning:DonutsPlugin] Adding scenario: morescavs
+[Warning:DonutsPlugin] Adding scenario: morepmcs
+[Warning:DonutsPlugin] Adding scenario: crazyraids
+[Warning:DonutsPlugin] Adding scenario: impossibleraids
+[Warning:DonutsPlugin] Adding scenario: quietraids
+[Warning:DonutsPlugin] Adding scenario: scav-raids
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-live-like
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-live-like-alt
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-morescavs
+[Warning:DonutsPlugin] Adding scenario: starting-pmcs-only-quietraids
+[Warning:DonutsPlugin] Adding scenario: Live Like (Random)
+[Warning:DonutsPlugin] Adding scenario: Starting PMCs Only (Random)
+[Warning:DonutsPlugin] Adding scenario: A Whole Lotta SCAVs (Random)
+[Warning:DonutsPlugin] Adding scenario: Death Wish (Random)
+[Warning:DonutsPlugin] Loaded 16 SCAV Scenarios and Finished Generating
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bundles
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bundles
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_12.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/acrstockmagpul.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_144.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_150.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_M7A1.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/ghost_energy.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_20.bundle
+[Info   :BundleManager] CACHE: Loading locally artemvest12.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/top_boss_shturman.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch13.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_23.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_SMR95.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_strawberry_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107hecartridge.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107hecartridge.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107hecartridge.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch11.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch4.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_22_alpineghillie.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_22_alpineghillie.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_155.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_2.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/m249_fs.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408stockheavy.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch16.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_ARMR_SLICK_ODG.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_23.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_APXT.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_139.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_RAC.bundle
+[Info   :BundleManager] CACHE: Loading locally Barrels/xm8barrellmg.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_boss_killa.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally artemgpnvgblack.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch14.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_72.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107grip.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107grip.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107grip.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_9.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/acrhandguardcqb.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet20.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_6.bundle
+[Info   :BundleManager] CACHE: Loading locally binders/binder_squirtle.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_23.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_wildbody2.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/m249_muzzle.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_147.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/top_boss_tagilla.skin.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107upperrecieverfde.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107upperrecieverfde.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107upperrecieverfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_10.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_lemonade.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_13.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_156.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/acrhandguardshort.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/xm8odsfa.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_13.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponAK5C/ak5cstock_1.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_121.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_10.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_12.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_11.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_124.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_wildbody3.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_3.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_34.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch2.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/m249_barrellong.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_ARMOR.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet16.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107muzzle.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107muzzle.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107muzzle.bundle
+[Info   :BundleManager] CACHE: Loading locally artemitembox.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_57.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_36.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_FDE/client_assets.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/nos_energy.bundle
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Project Fika Detected.]
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Questing Bots Detected.]
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Looting Bots Detected.]
+[Info   : Fika.Core] Server version check passed. Expected: >2.2.8, received: 2.2.8
+[Info   :FikaModHandler] Loaded plugin: [Graphics] with GUID [com.Amanda.Graphics] and crc32 [2853184277]
+[Info   :FikaModHandler] Loaded plugin: [Unity Toolkit] with GUID [com.Arys.UnityToolkit] and crc32 [2537187180]
+[Info   :FikaModHandler] Loaded plugin: [Configuration Manager] with GUID [com.bepis.bepinex.configurationmanager] and crc32 [2453335703]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Core] with GUID [com.SPT.core] and crc32 [4191002137]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-Waypoints] with GUID [xyz.drakia.waypoints] and crc32 [2106618053]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-BigBrain] with GUID [xyz.drakia.bigbrain] and crc32 [2017169171]
+[Info   :FikaModHandler] Loaded plugin: [DanW-QuestingBots] with GUID [com.DanW.QuestingBots] and crc32 [2343619103]
+[Info   :FikaModHandler] Loaded plugin: [Quests Extended] with GUID [com.dirtbikercj.QuestsExtended] and crc32 [1603629589]
+[Info   :FikaModHandler] Loaded plugin: [TraderServicesFix] with GUID [com.dirtbikercj.TraderServicesFix] and crc32 [3209378555]
+[Info   :FikaModHandler] Loaded plugin: [dvize.Donuts] with GUID [com.dvize.Donuts] and crc32 [1778726574]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Custom] with GUID [com.SPT.custom] and crc32 [4105500996]
+[Info   :FikaModHandler] Loaded plugin: [spt.Singleplayer] with GUID [com.SPT.singleplayer] and crc32 [1412309506]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Debugging] with GUID [com.SPT.debugging] and crc32 [392204029]
+[Info   :FikaModHandler] Loaded plugin: [Fika.Core] with GUID [com.fika.core] and crc32 [2090863391]
+[Info   :FikaModHandler] Loaded plugin: [IcyClawz.CustomInteractions] with GUID [com.IcyClawz.CustomInteractions] and crc32 [750489615]
+[Info   :FikaModHandler] Loaded plugin: [Kaeno-TraderScrolling] with GUID [com.kaeno.TraderScrolling] and crc32 [2340745731]
+[Info   :FikaModHandler] Loaded plugin: [DynamicMaps] with GUID [com.mpstark.DynamicMaps] and crc32 [3762696040]
+[Info   :FikaModHandler] Loaded plugin: [VCQL-Zones] with GUID [com.virtual.vcql] and crc32 [1391059777]
+[Info   :FikaModHandler] Loaded plugin: [HealingAutoCancel] with GUID [HealingAutoCancel] and crc32 [2746763155]
+[Info   :FikaModHandler] Loaded plugin: [BossNotifier] with GUID [Mattdokn.BossNotifier] and crc32 [3542675506]
+[Info   :FikaModHandler] Loaded plugin: [LootingBots] with GUID [me.skwizzy.lootingbots] and crc32 [1419096947]
+[Info   :FikaModHandler] Loaded plugin: [SAIN] with GUID [me.sol.sain] and crc32 [4183800089]
+[Info   :FikaModHandler] Loaded plugin: [MoreCheckmarks] with GUID [VIP.TommySoucy.MoreCheckmarks] and crc32 [729594844]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-QuickMoveToContainer] with GUID [xyz.drakia.quickmovetocontainer] and crc32 [3303898278]
+[Info   :RequestHandler] [REQUEST]: /fika/client/check/mods
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /fika/client/check/mods
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408muzzlebrake.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_54.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/xm8bsa.bundle
+[Info   :BundleManager] CACHE: Loading locally Mounts/xm8flp2pa.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_tracksuitred.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_custom_helmet2.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_55.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_132.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/xm8hgcar.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_21.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408carryhandlestandard.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_32.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_43.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_circularpatch5.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_customcap.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet4.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_devroninblack.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408barrelwindrunner.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_40.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_white_container.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_cultist2.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet5.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_41.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408carryhandlelight.bundle
+[Info   :BundleManager] CACHE: Loading locally ghostmaskb.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_21.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch17.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_obeybalaclava.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107frontsight.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107frontsight.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107frontsight.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_127.bundle
+[Info   :BundleManager] CACHE: Loading locally artemmedbox.bundle
+[Info   :BundleManager] CACHE: Loading locally packs/card_pack_bulbasaur.bundle
+[Info   :BundleManager] CACHE: Loading locally binders/binder_bulbasaur.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_22_alpineghillie.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_white.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_32.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_lowerhalfmask2.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch15.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_92.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408flashhider.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_HYPER.bundle
+[Info   :BundleManager] CACHE: Loading locally packs/card_pack_charmander.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_101.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_bratva2.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/xm8odsc.bundle
+[Info   :BundleManager] CACHE: Loading locally artemvest6.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_104.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/redbull_energy_container.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_110.bundle
+[Info   :BundleManager] CACHE: Loading locally artemgasmask1.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408bolthandlestandard.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_tracksuityellow_hands.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_blackrockalp.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_headcrabtrophy.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_tatu1.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408handguardlong.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_76.bundle
+[Info   :BundleManager] CACHE: Loading locally artemgasmask3.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponAK5C/ak5chandguard.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_solairetrophy.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_wolfhat2.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_2.bundle
+[Info   :BundleManager] CACHE: Loading locally Barrels/xm8barrelcarb.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408stockstandard.bundle
+[Info   :BundleManager] CACHE: Loading locally tacticalvest6.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_115.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_149.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_62.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch1.bundle
+[Info   :BundleManager] CACHE: Loading locally Mounts/xm8toprailcarb.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_17.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/xm8hg.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_40.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponAK5C/ak5ccover.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_14.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_veiltan.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/scarstockacrfde.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_15.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_SLAAP.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_REC_G17_FADE.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_30.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/bang_energy.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_8.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/acrstockacr.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_15.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/xm8sc.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_SMR13.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_9.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_33.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_lemonade_container.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_107.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_custom_helmet1.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/scarstockacr.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_32.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_SR25_UPPER_FDE.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_doctor.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_blackrockbmc.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_116.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_tracksuitred_hands.bundle
+[Info   :BundleManager] CACHE: Loading locally Receivers/acrupperreceiver.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/xm8bse.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_78.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408compensator.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_79.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_47.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/m249_handguardminimalist.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/stock_moe_m249.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_44.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_wtthands.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_45.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_14.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_142.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_28.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_BLUE.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_129.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_bratva1.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch3.bundle
+[Info   :BundleManager] CACHE: Loading locally artemsnackiz.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408bolthandleheavy.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_36.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_container.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/testshirt.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_130.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_96.bundle
+[Info   :BundleManager] CACHE: Loading locally artemgasmask2.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408barrellong.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_153.bundle
+[Info   :BundleManager] CACHE: Loading locally ghostmask1.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_22.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/acrstockdmr.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_doctor_container.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/xm8sa.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_boss_kolontai.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponAK5C/ak5cgrip.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_82.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408barrelshort.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_43.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_135.bundle
+[Info   :BundleManager] CACHE: Loading locally artemballisticmask2.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107barrel20fde.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107barrel20fde.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107barrel20fde.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_5.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_cpcmc.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtacticalvest4.bundle
+[Info   :BundleManager] CACHE: Loading locally tacticalvest3.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_66.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_18.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_25.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/redbull_watermelon_energy_container.bundle
+[Info   :BundleManager] CACHE: Loading locally artemvest14.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107suppressor.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107suppressor.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107suppressor.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_tatu2.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408magazine.bundle
+[Info   :BundleManager] CACHE: Loading locally packs/card_pack_squirtle.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_zryachiygreen.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_35.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_38.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_7.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_39.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107magfde.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107magfde.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107magfde.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_122.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_98.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_NVG.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_5.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_4.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_99.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_136.bundle
+[Info   :BundleManager] CACHE: Loading locally artemvest11.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_5.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_109.bundle
+[Info   :BundleManager] CACHE: Loading locally artemvest8.bundle
+[Info   :BundleManager] CACHE: Loading locally nikomask1.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/acrhandguardmagpulfde.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_veilwhite.bundle
+[Info   :BundleManager] CACHE: Loading locally Weapons/xm8blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/acrhandguardmlok.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_118.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/item_keycard_labs_spec.bundle
+[Info   :BundleManager] CACHE: Loading locally artemgpnvgod.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_SUIT_X99_UPPER.bundle
+[Info   :BundleManager] CACHE: Loading locally Barrels/xm8barrelpdw.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/m249_stdhandguard.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/scarbufferadapterfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/acrhandguarddmr.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/mag_m249_lmg_100_rounder.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_8.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_headphones1.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_34.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/xm8bhglmg.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/item_keycard_lab_mesh
+[Info   :BundleManager] CACHE: Loading locally ATL15_MIAD.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/ghost_energy_container.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_9.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_41.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_blue_container.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_BLK/weapon_lone_star_tx15_designated_marksman_556x45_container.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_68.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_15.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/xm8hglmg.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch9.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_2.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_69.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_boss_sanitar.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponAK5C/ak5cbarrel.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408carryhandleheavy.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107container.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_7.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_X88_LOWER.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_veilod.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_custom_helmet3.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_circularpatch2.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/acrhandguardshortfde.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_zryachimask.bundle
+[Info   :BundleManager] CACHE: Loading locally Magazines/acrpmag.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_wttshirt.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponAK5C/ak5cmag.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_trooper_35.bundle
+[Info   :BundleManager] CACHE: Loading locally artemballisticmask.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_41.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/m249_stdstock1.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/m249_handguardtactical.bundle
+[Info   :BundleManager] CACHE: Loading locally artemgpnvgwhite.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_alpinemask.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_52.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_cultist1.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_26.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_marpatbalaclava.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_102.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_brownmask.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_86.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_X69_HANDS.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_scavelite.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_16.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_140.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_backpacksso.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_boss_kaban.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_X69_UPPER.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/acrhandguardmr.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/nos_energy_container.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_X88_UPPER.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_veilblack.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_113.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/stock_buffer_m249.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_boss_birdeye.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_REC.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_boss_tagilla.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408bipod.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_21.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_145.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_151.bundle
+[Info   :BundleManager] CACHE: Loading locally artemvest10.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_cultistmask.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_tracksuitwhite_hands.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_154.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_SUIT_X99_HANDS.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_custom_helmet5.bundle
+[Info   :BundleManager] CACHE: Loading locally doggo_mag.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_helmet_mod_3.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_3.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_punch.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_atomhands.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_husky.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_back6sh118.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_10.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_138.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_BLK/textures/client_assets.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_BAR_TEX.bundle
+[Info   :BundleManager] CACHE: Loading locally Barrels/xm8barrelar.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_1.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/bang_energy_container.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_28.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_73.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_boss_big_pipe.skin.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107containerfde.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107containerfde.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107containerfde.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_29.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_88.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_PEQ.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_70.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_89.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_X69_LOWER.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_7.bundle
+[Info   :BundleManager] CACHE: Loading locally Barrels/acrbarrellong.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_146.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_71.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_boss_shturman.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_gorka4.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_8.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_ARMR_SLICK_FDE.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/m249_barrelshort.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/head_boss_tagilla.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_5.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_120.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_UPPER_FDE.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_VISOR.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/weapon_m249.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_7.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_12.bundle
+[Info   :BundleManager] CACHE: Loading locally Mounts/xm8toprail.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtacticalvest1.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_punch_container.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet12.bundle
+[Info   :BundleManager] CACHE: Loading locally Weapons/acrfde.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408suppressorbig.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/acrstockbufferfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/xm8se.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet11.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_125.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_35.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/xm8odhgar.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107muzzlefde.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107muzzlefde.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107muzzlefde.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_25.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_clutistmask2.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_36.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_56.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_RC2.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_tracksuityellow_pants.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_tracksuitwhite.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/xm8bsc.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_blue.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_6.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_circularpatch4.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/ammo_408.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet6.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107upperreciever.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107upperreciever.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107upperreciever.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_133.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_25.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_42.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_helmet23.bundle
+[Info   :BundleManager] CACHE: Loading locally Receivers/acrupperreceiverfde.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_126.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_OPT_RAZOR_FDE.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408barrellstandard.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_1.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_24.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_33.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408pistolgrip.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107barrelfde.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107barrelfde.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107barrelfde.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_93.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_30.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_100.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_31.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet10.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_lowerhalfmask3.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_90.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_13.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_91.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_RED_RAPTOR.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/xm8bhgcar.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_24.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_BAR_180.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_58.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_helmet22.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/xm8odhgpdw.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_9.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_59.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_77.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponAK5C/ak5cfs.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_105.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_111.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponAK5C/ak5cstock.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/m249_handguardod.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_cpcbmc.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_74.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_114.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch5.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107barrel20.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107barrel20.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107barrel20.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_148.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107barrel.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107barrel.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107barrel.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_3.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_tracksuityellow.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/mag_m249.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_75.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_4.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/xm8hgpdw.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_circularpatch6.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_63.bundle
+[Info   :BundleManager] CACHE: Loading locally Weapons/acr.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_1.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/acrstockcqb.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_60.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_custom_helmet4.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_16.bundle
+[Info   :BundleManager] CACHE: Loading locally Weapons/xm8od.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_61.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/m249_foregrip_saw.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_tracksuitwhite_pants.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_X88_HANDS.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_VISOR_GLASS.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_back6sh118snow.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/Graves_Pants.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_106.bundle
+[Info   :BundleManager] CACHE: Loading locally Barrels/xm8gasblock.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/redbull_energy.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_31.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107fmjcartridge.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107fmjcartridge.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107fmjcartridge.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch8.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_lowerhalfmask1.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_8.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_BAR_277.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107rearsight.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107rearsight.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107rearsight.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_voxshirt.bundle
+[Info   :BundleManager] CACHE: Loading locally Weapons/xm8fde.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_117.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/acrstockbuffer.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/xm8bsf.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107bipod.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107bipod.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107bipod.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_18.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_RIG.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet2.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107suppressorfde.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107suppressorfde.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107suppressorfde.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/m249_parastock.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_46.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponM249/m249_handguardheavy.bundle
+[Info   :BundleManager] CACHE: Loading locally Barrels/acrbarrelmedium.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_boss_blackknight.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch7.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_SR25_HAND_FDE.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet13.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_128.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408bolthandlelight.bundle
+[Info   :BundleManager] CACHE: Loading locally ghostmaskr.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_18.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_tracksuitred_pants.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_29.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_19.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_wolfhat1.bundle
+[Info   :BundleManager] CACHE: Loading locally SR25/weapon_container.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_37.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_helmet_mod_4.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_143.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/xm8odhglmg.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_33.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponAK5C/ak5c.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_97.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_34.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_152.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/top_boss_shturman_alt.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_35.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_94.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_23.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_95.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_131.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_134.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_83.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_20.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/xm8bhgar.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch6.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/xm8sf.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_21.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_80.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_1.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_81.bundle
+[Info   :BundleManager] CACHE: Loading locally Pants/artem_pants_26.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_48.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtacticalvest5.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_devroninalpine.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_49.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_67.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponAK5C/ak5cmuzzle.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_24.bundle
+[Info   :BundleManager] CACHE: Loading locally artemvest16.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_FDE/textures/client_assets.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408suppressorsock.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_64.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_4.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_19.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_27.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_circularpatch1.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_65.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_shadowmask.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_26.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_26.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_FDE/weapon_lone_star_tx15_designated_marksman_556x45_container.bundle
+[Info   :BundleManager] CACHE: Loading locally SR25/client_assets.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_blackrockmc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mounts/xm8p2pc.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_108.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL_KNIGHT.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring WeaponM107/m107mag.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/WeaponM107/m107mag.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/WeaponM107/m107mag.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_6.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408handguardshort.bundle
+[Info   :BundleManager] CACHE: Loading locally artemvest13.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet18.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch12.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_2.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/acrhandguardmagpul.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_123.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_hecutrophy.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_137.bundle
+[Info   :BundleManager] CACHE: Loading locally SR25/textures/client_assets.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_patch10.bundle
+[Info   :BundleManager] CACHE: Loading locally artemvest9.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408stocklight.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/testhands.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_boss_glukhar.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_119.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_boss_zryachiy.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/408muzzlestandard.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/monster_energy_strawberry.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_3.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_headphones3.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_14.bundle
+[Info   :BundleManager] CACHE: Loading locally Barrels/acrbarrelshort.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_headphones2.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/xm8odsfe.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_mcbbalaclava.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/acrhandguardcarbine.bundle
+[Info   :BundleManager] CACHE: Loading locally binders/binder_charmander.bundle
+[Info   :BundleManager] CACHE: Loading locally mysterybox.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/acrstockacrfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_16.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_security2.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_cpcalp.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_BAR_379.bundle
+[Info   :BundleManager] CACHE: Loading locally mysterybox_2.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_20.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_6.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_grooveysflashdrive.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_40.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_circularpatch3.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_scav_security1.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponAK5C/ak5crail.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/hands_boss_reshala.skin.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_43.bundle
+[Info   :BundleManager] CACHE: Loading locally Mounts/xm8p2ppdw.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_53.bundle
+[Info   :BundleManager] CACHE: Loading locally Tops/artem_top_42.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_27.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_50.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/xm8bhgpdw.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/acrstockmagpulfde.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_87.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_24.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_51.bundle
+[Info   :BundleManager] CACHE: Loading locally Hands/artem_hands_19.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_25.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/redbull_watermelon_energy.bundle
+[Info   :BundleManager] CACHE: Loading locally ATL15_BLK/client_assets.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_84.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_103.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/xm8odsf.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet21.bundle
+[Info   :BundleManager] CACHE: Loading locally WeaponCheytac/interventioncont.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_85.bundle
+[Info   :BundleManager] CACHE: Loading locally artemtachelmet8.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_112.bundle
+[Info   :BundleManager] CACHE: Loading locally Handguards/xm8odhgcar.bundle
+[Info   :BundleManager] CACHE: Loading locally cards/card_141.bundle
+[Info   :BundleManager] CACHE: Loading locally Stocks/scarbufferadapter.bundle
+[Info   :BundleManager] CACHE: Loading locally artem_denniscollar.bundle
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :ModulePatch] Server version: SPT 3.9.8 - a0c79a
+[Info   :DynamicMaps] Trying to attach to MapScreen
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\SPTark\BepInEx\plugins\DynamicMaps\Maps\Customs_TarkovDev\Customs_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Customs (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\SPTark\BepInEx\plugins\DynamicMaps\Maps\Factory_TarkovDev\Factory_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Factory (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\SPTark\BepInEx\plugins\DynamicMaps\Maps\GroundZero_TarkovDev\GroundZero_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Ground Zero (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\SPTark\BepInEx\plugins\DynamicMaps\Maps\Interchange_TarkovDev\Interchange_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Interchange (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\SPTark\BepInEx\plugins\DynamicMaps\Maps\Labs_TarkovDev\Labs_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Labs (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\SPTark\BepInEx\plugins\DynamicMaps\Maps\Lighthouse_TarkovData\Lighthouse_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Lighthouse (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\SPTark\BepInEx\plugins\DynamicMaps\Maps\Reserve_TarkovData\Reserve_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Reserve (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\SPTark\BepInEx\plugins\DynamicMaps\Maps\Shoreline_TarkovData\Shoreline_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Shoreline (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\SPTark\BepInEx\plugins\DynamicMaps\Maps\Streets_TarkovData\Streets_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Streets of Tarkov (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: C:\SPTark\BepInEx\plugins\DynamicMaps\Maps\Woods_TarkovData\Woods_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Woods (TarkovData)
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Lighthouse_TarkovData/Layers/lighthouse_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Reserve_TarkovData/Layers/reserve_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Reserve_TarkovData/Layers/reserve_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_3.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_4.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Woods_TarkovData/Layers/woods_layer_0.png
+[Info   :MoreCheckmarks] Loading data
+[Info   :MoreCheckmarks] 	Quests
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/quests
+[Info   :MoreCheckmarks] 	Items
+[Info   :MoreCheckmarks] 	Assorts
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/assorts
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/assorts
+[Info   :MoreCheckmarks] 	Productions
+[Info   :RequestHandler] [REQUEST]: /MoreCheckmarksRoutes/productions
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /MoreCheckmarksRoutes/productions
+[Info   :DanW-QuestingBots] Logging path: C:\SPTark/BepInEx/plugins/DanW-SPTQuestingBots/log/
+[Info   :DanW-QuestingBots] Found 64 non-EFT quests for bigmap
+[Info   :DanW-QuestingBots] Found 33 non-EFT quests for factory4_day
+[Info   :DanW-QuestingBots] Found 82 non-EFT quests for Interchange
+[Info   :DanW-QuestingBots] Found 53 non-EFT quests for laboratory
+[Info   :DanW-QuestingBots] Found 63 non-EFT quests for Lighthouse
+[Info   :DanW-QuestingBots] Found 54 non-EFT quests for RezervBase
+[Info   :DanW-QuestingBots] Found 40 non-EFT quests for Sandbox
+[Info   :DanW-QuestingBots] Found 40 non-EFT quests for Sandbox_high
+[Info   :DanW-QuestingBots] Found 50 non-EFT quests for Shoreline
+[Info   :DanW-QuestingBots] Found 109 non-EFT quests for TarkovStreets
+[Info   :DanW-QuestingBots] Found 37 non-EFT quests for Woods
+[Info   :DanW-QuestingBots] Validated all quest files
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :LootingBots] Initializing item appraiser
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :MoreCheckmarks] Quest Debut queststatus set to Success
+[Info   :MoreCheckmarks] Quest Background Check queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shootout Picnic queststatus set to Started
+[Info   :MoreCheckmarks] Quest Delivery From the Past queststatus set to Started
+[Info   :MoreCheckmarks] Quest Shortage queststatus set to Success
+[Info   :MoreCheckmarks] Quest Sanitary Standards - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Operation Aquarius - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Supplier queststatus set to Success
+[Info   :MoreCheckmarks] Quest The Extortionist queststatus set to Started
+[Info   :MoreCheckmarks] Quest Stirrup queststatus set to Started
+[Info   :MoreCheckmarks] Quest Friend From the West - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Gunsmith - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Introduction queststatus set to Success
+[Info   :MoreCheckmarks] Quest Acquaintance queststatus set to Started
+[Info   :MoreCheckmarks] Quest Search Mission queststatus set to Started
+[Info   :MoreCheckmarks] Quest First in Line queststatus set to Success
+[Info   :MoreCheckmarks] Quest Shooting Cans queststatus set to Success
+[Info   :MoreCheckmarks] Quest Luxurious Life queststatus set to Success
+[Info   :MoreCheckmarks] Quest Burning Rubber queststatus set to Success
+[Info   :MoreCheckmarks] Quest Saving the Mole queststatus set to Success
+[Info   :MoreCheckmarks] Quest Easy Money - Part 1 queststatus set to Started
+[Info   :MoreCheckmarks] Quest Taped Up queststatus set to Started
+[Info   :MoreCheckmarks] Quest Introduction. queststatus set to Started
+[Info   :MoreCheckmarks] Quest New Contacts queststatus set to Started
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to Success
+[Info   :MoreCheckmarks] Quest Exit the location queststatus set to AvailableForStart
+[Info   :MoreCheckmarks] Quest Elimination queststatus set to Started
