@@ -1,0 +1,8 @@
+Bot Name,Bot Nickname,Bot Difficulty,Bot Level,Assignment Status,Quest Name,Objective Name,Step Number,Start Time,End Time
+Bot1,"Pherik",normal,3,Failed,"Board Room","Board Room: Objective #2","1","22:19:29","22:20:21",
+Bot4,"Fiaf",normal,17,Failed,"Infirmary Camping","Infirmary Camping: Objective #1","1","22:19:30","22:22:56",
+Bot7,"Revingly",normal,8,Pending,"Board Room","Board Room: Objective #2","1","22:19:30","N/A",
+Bot2,"Mr_Pudlik",normal,18,Failed,"Parking","Parking: Objective #1","1","22:19:30","22:20:17",
+Bot5,"MoxoPixel",normal,17,Failed,"Security Office","Security Office: Objective #2","1","22:19:30","22:21:40",
+Bot3,"Digi",normal,18,Failed,"Sanitar's Room","Sanitar's Room: Objective #1","1","22:19:30","22:21:15",
+Bot6,"Platinum",normal,15,Active,"Parking","Parking: Objective #4","1","22:19:30","N/A",

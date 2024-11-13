@@ -1,0 +1,7 @@
+Bot Name,Bot Nickname,Bot Difficulty,Bot Level,Assignment Status,Quest Name,Objective Name,Step Number,Start Time,End Time
+Bot11,"Tyrian",normal,25,Failed,"Chemical - Part 3","Item Syringe with a chemical","1","21:00:48","21:01:42",
+Bot10,"Stealthsuit",normal,24,Failed,"Crates Outside of Scav Bunker","Crates Outside of Scav Bunker: Objective #1","1","21:00:48","21:02:16",
+Bot12,"MissingInAction",normal,12,Pending,"Delivery From the Past","Zone case_extraction","1","21:00:48","N/A",
+Bot14,"Hobbes",normal,6,Active,"The Huntsman Path - Secured Perimeter","Zone huntsman_013","1","21:00:48","N/A",
+Bot15,"3371",normal,25,Failed,"Scout","Zone place_pacemaker_SCOUT_02","1","21:00:48","21:02:51",
+Bot13,"Doge",normal,4,Failed,"Sanitary Standards - Part 1","Zone pumproom","1","21:00:49","21:01:25",
