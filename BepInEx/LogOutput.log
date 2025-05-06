@@ -1,0 +1,1132 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - EscapeFromTarkov (5/5/2025 2:50:49 PM)
+[Info   :   BepInEx] Running under Unity v0.16.1.3539
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [spt-prepatch 3.11.3.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [SPT.PrePatch.SPTPrePatcher]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 19 plugins to load
+[Info   :   BepInEx] Loading [Graphics 1.6.5]
+[Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
+[Info   :   BepInEx] Loading [SPT.Custom 3.11.3]
+[Info   :SPT.Custom] Loading: SPT.Custom
+[Info   :ModulePatch] Enabled patch EasyAssetsPatch
+[Info   :ModulePatch] Enabled patch EasyBundlePatch
+[Info   :ModulePatch] Enabled patch DisableNonHalloweenExitsDuringEventPatch
+[Info   :ModulePatch] Enabled patch SendFleaListingTaxAmountToServerPatch
+[Info   :ModulePatch] Enabled patch AddTraitorScavsPatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bosstypes
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bosstypes
+[Info   :ModulePatch] Enabled patch CustomAiPatch
+[Info   :ModulePatch] Enabled patch SaveSettingsToSptFolderPatch
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsSetInt
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsSetFloat
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsSetString
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsGetInt
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsGetFloat
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsGetString
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsHasKey
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsDeleteKey
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsDeleteAll
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsSave
+[Info   :ModulePatch] Enabled patch QTEPatch
+[Info   :ModulePatch] Enabled patch RedirectClientImageRequestsPatch
+[Info   :ModulePatch] Enabled patch DisableGameModeAdjustButtonPatch
+[Info   :ModulePatch] Enabled patch FixPmcSpawnParamsNullErrorPatch
+[Info   :ModulePatch] Enabled patch SetPreRaidSettingsScreenDefaultsPatch
+[Info   :ModulePatch] Enabled patch CoreDifficultyPatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch
+[Info   :ModulePatch] Enabled patch VersionLabelPatch
+[Info   :ModulePatch] Enabled patch FixScavWarNullErrorWithMarkOfUnknownPatch
+[Info   :ModulePatch] Enabled patch MergeScavPmcQuestsOnInventoryLoadPatch
+[Info   :ModulePatch] Enabled patch CopyPmcQuestsAndWishlistToPlayerScavPatch
+[Info   :ModulePatch] Enabled patch FixBossesHavingNoFollowersOnMediumAiAmount
+[Info   :ModulePatch] Enabled patch FixAirdropCrashPatch
+[Info   :ModulePatch] Enabled patch FixAirdropFlareDisposePatch
+[Info   :ModulePatch] Enabled patch AllowAirdropsInPvEPatch
+[Info   :ModulePatch] Enabled patch MemoryCollectionPatch
+[Info   :ModulePatch] Enabled patch BotsControllerInitPatch
+[Info   :ModulePatch] Enabled patch BotsEventsControllerActivatePatch
+[Info   :ModulePatch] Enabled patch EnablePrestigeTabPatch
+[Info   :ModulePatch] Enabled patch MatchStartServerLocationPatch
+[Info   :ModulePatch] Enabled patch SpawnPointAIPlayerBotLimitPatch
+[Info   :ModulePatch] Enabled patch SpawnPointNearestPlayerAIPatch
+[Info   :SPT.Custom] Completed: SPT.Custom
+[Info   :   BepInEx] Loading [SPT.Singleplayer 3.11.3]
+[Info   :SPT.Singleplayer] Loading: SPT.SinglePlayer
+[Info   :ModulePatch] Enabled patch TinnitusFixPatch
+[Info   :ModulePatch] Enabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Enabled patch OverrideMaxAiAliveInRaidValuePatch
+[Info   :ModulePatch] Enabled patch FixPostScavRaidXpShowingZeroPatch
+[Info   :ModulePatch] Enabled patch DisablePMCExtractsForScavsPatch
+[Info   :ModulePatch] Enabled patch ScavExfilPatch
+[Info   :ModulePatch] Enabled patch ScavProfileLoadPatch
+[Info   :ModulePatch] Enabled patch ScavPrefabLoadPatch
+[Info   :ModulePatch] Enabled patch DisableReadyLocationReadyPatch
+[Info   :ModulePatch] Enabled patch LoadOfflineRaidScreenPatch
+[Info   :ModulePatch] Enabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Enabled patch PluginErrorNotifierPatch
+[Info   :ModulePatch] Enabled patch MapReadyButtonPatch
+[Info   :ModulePatch] Enabled patch RemoveUsedBotProfilePatch
+[Info   :ModulePatch] Enabled patch ScavLateStartPatch
+[Info   :ModulePatch] Enabled patch ScavSellAllPriceStorePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllRequestPatch
+[Info   :ModulePatch] Enabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Enabled patch DisableWelcomeToPVEModeMessagePatch
+[Info   :ModulePatch] Enabled patch DisableMatchmakerPlayerPreviewButtonsPatch
+[Info   :ModulePatch] Enabled patch EnableRefForPVEPatch
+[Info   :ModulePatch] Enabled patch EnableRefIntermScreenPatch
+[Info   :ModulePatch] Enabled patch EnablePlayerScavPatch
+[Info   :ModulePatch] Enabled patch ScavFoundInRaidPatch
+[Info   :ModulePatch] Enabled patch GetProfileAtEndOfRaidPatch
+[Info   :ModulePatch] Enabled patch SendPlayerScavProfileToServerAfterRaidPatch
+[Info   :ModulePatch] Enabled patch RemoveStashUpgradeLabelPatch
+[Info   :ModulePatch] Enabled patch RemoveClothingItemExternalObtainLabelPatch
+[Info   :ModulePatch] Enabled patch ForceRaidModeToLocalPatch
+[Info   :ModulePatch] Enabled patch ScavIsPlayerEnemyPatch
+[Info   :ModulePatch] Enabled patch FirearmControllerShowIncompatibleNotificationClass
+[Info   :ModulePatch] Enabled patch FixKeyAlreadyExistsErrorOnAchievementPatch
+[Info   :ModulePatch] Enabled patch ScavPrestigeFixPatch
+[Info   :ModulePatch] Enabled patch DisableDevMaskCheckPatch
+[Info   :ModulePatch] Enabled patch RemoveStopwatchAllocationsEveryBotFramePatch
+[Info   :ModulePatch] Enabled patch RemoveStopwatchAllocationsEveryCoverPointFramePatch
+[Info   :ModulePatch] Enabled patch DisableUseBSGServersCheckbox
+[Info   :ModulePatch] Enabled patch PmcBotSidePatch
+[Info   :ModulePatch] Enabled patch QuestAchievementRewardInRaidPatch
+[Info   :ModulePatch] Enabled patch FixUnityWarningSpamFromAirdropsPatch
+[Info   :SPT.Singleplayer] Completed: SPT.SinglePlayer
+[Info   :   BepInEx] Loading [SPT.Core 3.11.3]
+[Info   :  SPT.Core] Loading: SPT.Core
+[Info   :ModulePatch] Enabled patch ConsistencySinglePatch
+[Info   :ModulePatch] Enabled patch ConsistencyMultiPatch
+[Info   :ModulePatch] Enabled patch GameValidationPatch
+[Info   :ModulePatch] Enabled patch BattlEyePatch
+[Info   :ModulePatch] Enabled patch SslCertificatePatch
+[Info   :ModulePatch] Enabled patch UnityWebRequestPatch
+[Info   :ModulePatch] Enabled patch WebSocketSslValidationPatch
+[Info   :  SPT.Core] Completed: SPT.Core
+[Info   :   BepInEx] Loading [SPT.Debugging 3.11.3]
+[Info   :SPT.Debugging] Loading: SPT.Debugging
+[Info   :ModulePatch] Enabled patch EndRaidDebug
+[Info   :ModulePatch] Enabled patch LoggerClassLogPatch
+[Info   :ModulePatch] Enabled patch ReloadClientPatch
+[Info   :ModulePatch] Enabled patch EnableDebugCommandsPatch
+[Info   :SPT.Debugging] Completed: SPT.Debugging
+[Info   :   BepInEx] Loading [Fika.Core 1.2.7]
+[Info   : Fika.Core] Received NatPunchServer config from server:
+[Info   : Fika.Core] Enable: False
+[Info   : Fika.Core] Port: 6790
+[Info   : Fika.Core] NatIntroduceAmount: 1
+[Info   : FikaPatch] Enabled patch FikaVersionLabel_Patch
+[Info   : FikaPatch] Enabled patch DisableMatchSettingsReadyButton_Patch
+[Info   : FikaPatch] Enabled patch DisableReadyButton_Patch
+[Info   : FikaPatch] Enabled patch AchievementsScreen_Show_Patch
+[Info   : FikaPatch] Enabled patch AchievementView_Show_Patch
+[Info   : FikaPatch] Enabled patch ChangeGameModeButton_Patch
+[Info   : FikaPatch] Enabled patch CoopSettingsWindow_Show_Patch
+[Info   : FikaPatch] Enabled patch DisableInsuranceReadyButton_Patch
+[Info   : FikaPatch] Enabled patch DisconnectButton_Patch
+[Info   : FikaPatch] Enabled patch MainMenuControllerClass_method_52_Patch
+[Info   : FikaPatch] Enabled patch GClass3581_ShowAction_Patch
+[Info   : FikaPatch] Enabled patch HideoutPlayerOwner_SetPointOfView_Patch
+[Info   : FikaPatch] Enabled patch MenuScreen_Awake_Patch
+[Info   : FikaPatch] Enabled patch MenuScreen_method_9_Patch
+[Info   : FikaPatch] Enabled patch RagfairScreen_Show_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerOfflineRaidScreen_Show_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerOfflineRaidScreen_Close_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerPlayerControllerClass_GetCoopBlockReason_Patch
+[Info   : FikaPatch] Enabled patch MenuTaskBar_Patch
+[Info   : FikaPatch] Enabled patch PartyInfoPanel_Show_Patch
+[Info   : FikaPatch] Enabled patch RaidSettingsWindow_method_8_Patch
+[Info   : FikaPatch] Enabled patch RaidSettingsWindow_Show_Patch
+[Info   : FikaPatch] Enabled patch SessionResultExitStatus_Show_Patch
+[Info   : FikaPatch] Enabled patch TarkovApplication_method_18_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerAcceptScreen_Awake_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerAcceptScreen_Show_Patch
+[Info   : FikaPatch] Enabled patch AbstractGame_InRaid_Patch
+[Info   : FikaPatch] Enabled patch AIPlaceLogicPartisan_Dispose_Patch
+[Info   : FikaPatch] Enabled patch GClass2461_UpdateOfflineClientLogic_Patch
+[Info   : FikaPatch] Enabled patch GClass2462_UpdateOfflineClientLogic_Patch
+[Info   : FikaPatch] Enabled patch SyncObjectProcessorClass_GetSyncObjectStrategyByType_Patch
+[Info   : FikaPatch] Enabled patch GClass1395_Constructor_Patch
+[Info   : FikaPatch] Enabled patch GClass622_method_0_Patch
+[Info   : FikaPatch] Enabled patch GClass622_method_28_Patch
+[Info   : FikaPatch] Enabled patch BotCacher_Patch
+[Info   : FikaPatch] Enabled patch BotReload_method_1_Patch
+[Info   : FikaPatch] Enabled patch BTRControllerClass_Init_Patch
+[Info   : FikaPatch] Enabled patch BTRVehicle_method_38_Patch
+[Info   : FikaPatch] Enabled patch BTRView_GoIn_Patch
+[Info   : FikaPatch] Enabled patch BTRView_GoOut_Patch
+[Info   : FikaPatch] Enabled patch BTRView_SyncViewFromServer_Patch
+[Info   : FikaPatch] Enabled patch Player_UpdateBtrTraderServiceData_Patch
+[Info   : FikaPatch] Enabled patch WeaponManagerClass_method_13_Patch
+[Info   : FikaPatch] Enabled patch WeaponManagerClass_ValidateScopeSmoothZoomUpdate_Patch
+[Info   : FikaPatch] Enabled patch Class1391_ReloadBackendLocale_Patch
+[Info   : FikaPatch] Enabled patch GameWorld_Create_Patch
+[Info   : FikaPatch] Enabled patch GameWorld_ThrowItem_Patch
+[Info   : FikaPatch] Enabled patch GClass1675_method_9_Patch
+[Info   : FikaPatch] Enabled patch GClass2054_method_0_Patch
+[Info   : FikaPatch] Enabled patch GClass3371_ExceptAI_Patch
+[Info   : FikaPatch] Enabled patch GrenadeClass_Init_Patch
+[Info   : FikaPatch] Enabled patch BufferInnerZone_ChangePlayerAccessStatus_Patch
+[Info   : FikaPatch] Enabled patch BufferInnerZone_ChangeZoneInteractionAvailability_Patch
+[Info   : FikaPatch] Enabled patch BufferZoneControllerClass_method_1_Patch
+[Info   : FikaPatch] Enabled patch BufferZoneControllerClass_SetPlayerInZoneStatus_Patch
+[Info   : FikaPatch] Enabled patch BaseLocalGame_method_13_Patch
+[Info   : FikaPatch] Enabled patch NonWaveSpawnScenario_Patch
+[Info   : FikaPatch] Enabled patch TarkovApplication_LocalGameCreator_Patch
+[Info   : FikaPatch] Enabled patch TarkovApplication_LocalGamePreparer_Patch
+[Info   : FikaPatch] Enabled patch WaveSpawnScenario_Patch
+[Info   : FikaPatch] Enabled patch MineDirectional_OnTriggerEnter_Patch
+[Info   : FikaPatch] Enabled patch Minefield_method_2_Patch
+[Info   : FikaPatch] Enabled patch GetProfileAtEndOfRaidPatch_Override
+[Info   : FikaPatch] Enabled patch FixSavageInventoryScreenPatch_Override
+[Info   : FikaPatch] Enabled patch OfflineRaidSettingsMenuPatch_Override
+[Info   : FikaPatch] Enabled patch ScavProfileLoad_Override
+[Info   : FikaPatch] Enabled patch BodyPartCollider_SetUpPlayer_Patch
+[Info   : FikaPatch] Enabled patch Player_Hide_Patch
+[Info   : FikaPatch] Enabled patch Player_ManageAggressor_Patch
+[Info   : FikaPatch] Enabled patch Player_OnDead_Patch
+[Info   : FikaPatch] Enabled patch Player_SetDogtagInfo_Patch
+[Info   : FikaPatch] Enabled patch Player_SpawnInHands_Patch
+[Info   : FikaPatch] Enabled patch TransitControllerAbstractClass_Exist_Patch
+[Info   : FikaPatch] Enabled patch TripwireSynchronizableObject_method_11_Patch
+[Info   : FikaPatch] Enabled patch TripwireSynchronizableObject_method_6_Patch
+[Info   : FikaPatch] Enabled patch BasicMicrophoneCapture_UpdateSubscribers_Transpiler
+[Info   : FikaPatch] Enabled patch DissonanceComms_Start_Patch
+[Info   : FikaPatch] Enabled patch Player_IDissonancePlayerType_Patch
+[Info   : FikaPatch] Enabled patch Player_HasMarkOfUnknown_Patch
+[Info   : FikaPatch] Enabled patch OpticRetrice_UpdateTransform_Patch
+[Info   : FikaPatch] Enabled patch PlayerCameraController_LateUpdate_Transpiler
+[Info   : FikaPatch] Enabled patch DeathFade_Patch
+[Info   : FikaPatch] Enabled patch PlayEndGameSound_Patch
+[Info   : FikaPatch] Enabled patch PlayUISound_Patch
+[Info   : FikaPatch] Enabled patch BTRSide_AddPassenger_Patch
+[Info   : FikaPatch] Enabled patch BTRSide_RemovePassenger_Patch
+[Info   : FikaPatch] Enabled patch BTRSide_method_9_Patch
+[Info   : FikaPatch] Enabled patch LighthouseTraderZone_AddPlayer_Patch
+[Info   : FikaPatch] Enabled patch LighthouseTraderZone_RemovePlayer_Patch
+[Info   : FikaPatch] Enabled patch LighthouseTraderZone_Awake_Patch
+[Info   : FikaPatch] Enabled patch GClass436_Activate_Patch
+[Info   :Fika.Core PatchManager] Enabled 91 patches
+[Info   :ModulePatch] Disabled patch VersionLabelPatch
+[Info   :ModulePatch] Disabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Disabled patch ArmorDamageCounterPatch
+[Info   :ModulePatch] Disabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Disabled patch GetProfileAtEndOfRaidPatch
+[Info   :ModulePatch] Disabled patch ScavExfilPatch
+[Info   :ModulePatch] Disabled patch SendPlayerScavProfileToServerAfterRaidPatch
+[Info   :ModulePatch] Disabled patch MatchStartServerLocationPatch
+[Info   :ModulePatch] Disabled patch QuestAchievementRewardInRaidPatch
+[Info   : Fika.Core] Received config from server:
+[Info   : Fika.Core] Fika is loaded! Running version: 1.2.7.0
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/difficulty/core/core
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/difficulty/core/core
+[Info   : FikaPatch] Enabled patch ItemContext_Patch
+[Info   :   BepInEx] Loading [HandsAreNotBusy 1.5.0]
+[Info   :HandsAreNotBusy] HANB_Plugin has been loaded.
+[Info   :ModulePatch] Enabled patch HANB_Patch
+[Info   :   BepInEx] Loading [DynamicMaps 0.5.7]
+[Warning:  HarmonyX] BattleUIScreenShowPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3575, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner) instead of void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3575, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner).
+[Info   :ModulePatch] Enabled patch BattleUIScreenShowPatch
+[Info   :ModulePatch] Enabled patch CommonUIAwakePatch
+[Info   :ModulePatch] Enabled patch MapScreenShowPatch
+[Info   :ModulePatch] Enabled patch MapScreenClosePatch
+[Info   :ModulePatch] Enabled patch GameStartedPatch
+[Info   :ModulePatch] Enabled patch GameWorldOnDestroyPatch
+[Info   :ModulePatch] Enabled patch GameWorldUnregisterPlayerPatch
+[Info   :ModulePatch] Enabled patch GameWorldRegisterLootItemPatch
+[Info   :ModulePatch] Enabled patch GameWorldDestroyLootPatch
+[Info   :ModulePatch] Enabled patch AirdropBoxOnBoxLandPatch
+[Info   :ModulePatch] Enabled patch PlayerOnDeadPatch
+[Info   :ModulePatch] Enabled patch PlayerInventoryThrowItemPatch
+[Info   :ModulePatch] Enabled patch ShowViewButtonPatch
+[Info   :   BepInEx] Loading [PlayerEncumbranceBar 1.1.3]
+[Info   :ModulePatch] Enabled patch HealthParametersShowPatch
+[Info   :   BepInEx] Loading [NoBush 1.0.0]
+[Info   :ModulePatch] Enabled patch NoBushPatch
+[Info   :   BepInEx] Loading [Terkoiz.Skipper 1.1.3]
+[Info   :   BepInEx] Loading [VCQL-Zones 2.0.4]
+[Info   :ModulePatch] Enabled patch GameWorldPatch
+[Info   :   BepInEx] Loading [gekos_api 0.4.0]
+[Info   :ModulePatch] Enabled patch GPFix
+[Info   :ModulePatch] Enabled patch MinPriceFix
+[Info   :RequestHandler] [REQUEST]: /server-config-router/skillsconfig
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /server-config-router/skillsconfig
+[Info   :ModulePatch] Enabled patch SkillsMultipliers
+[Info   :RequestHandler] [REQUEST]: /server-config-router/skillsconfig
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /server-config-router/skillsconfig
+[Info   :ModulePatch] Enabled patch SkillBuffMulti1303
+[Info   :RequestHandler] [REQUEST]: /server-config-router/skillsconfig
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /server-config-router/skillsconfig
+[Info   :ModulePatch] Enabled patch SkillBuffMulti1304
+[Info   :RequestHandler] [REQUEST]: /server-config-router/skillsconfig
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /server-config-router/skillsconfig
+[Info   :ModulePatch] Enabled patch SkillBuffMulti1305
+[Info   :RequestHandler] [REQUEST]: /server-config-router/skillsconfig
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /server-config-router/skillsconfig
+[Info   :ModulePatch] Enabled patch SkillBuffMulti1306
+[Info   :RequestHandler] [REQUEST]: /server-config-router/skillpoints
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /server-config-router/skillpoints
+[Info   :RequestHandler] [REQUEST]: /server-config-router/skillpoints
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /server-config-router/skillpoints
+[Info   :ModulePatch] Enabled patch SkillButtons
+[Info   :RequestHandler] [REQUEST]: /server-config-router/skillpoints
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /server-config-router/skillpoints
+[Warning:  HarmonyX] AdditionalSkillLevels: You should only patch implemented methods/constructors to avoid issues. Patch the declared method int AbstractSkillClass::get_Level() instead of int AbstractSkillClass::get_Level().
+[Info   :ModulePatch] Enabled patch AdditionalSkillLevels
+[Info   :RequestHandler] [REQUEST]: /server-config-router/skillpoints
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /server-config-router/skillpoints
+[Info   :ModulePatch] Enabled patch AvailableSkillPointsUI
+[Info   :ModulePatch] Enabled patch LevelExpFix
+[Info   :ModulePatch] Enabled patch CalculateExpOnFirstLevelsFix
+[Info   :ModulePatch] Enabled patch BaseProgressFix
+[Info   :ModulePatch] Enabled patch ProgressValueFix
+[Info   :ModulePatch] Enabled patch OnTriggerFix
+[Info   :ModulePatch] Enabled patch Method4Fix
+[Warning:  HarmonyX] LevelProgressFix: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual float AbstractSkillClass::get_LevelProgress() instead of virtual float AbstractSkillClass::get_LevelProgress().
+[Warning:  HarmonyX] LevelProgressFix: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual float AbstractSkillClass::get_LevelProgress() instead of virtual float AbstractSkillClass::get_LevelProgress().
+[Info   :ModulePatch] Enabled patch LevelProgressFix
+[Info   : gekos_api] Geko's API fully loaded!
+[Info   :   BepInEx] Loading [DrakiaXYZ-BigBrain 1.3.2]
+[Info   :DrakiaXYZ-BigBrain] Loading: DrakiaXYZ-BigBrain
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivatePatch
+[Info   :ModulePatch] Enabled patch BotBrainCreateLogicNodePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainUpdatePatch
+[Info   :ModulePatch] Enabled patch BotAgentUpdatePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivateLayerPatch
+[Info   :ModulePatch] Enabled patch BotStandartBotBrainActivatePatch
+[Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
+[Info   :   BepInEx] Loading [LootingBots 1.5.2]
+[Info   :ModulePatch] Enabled patch CleanCacheOnRaidEnd
+[Info   :ModulePatch] Enabled patch ClearCacheOnDeath
+[Info   :ModulePatch] Enabled patch EnableWeaponSwitching
+[Info   :ModulePatch] Enabled patch InteractPatch
+[Info   :ModulePatch] Enabled patch InventoryClosePatch
+[Info   :ModulePatch] Enabled patch RemoveComponent
+[Info   :   BepInEx] Loading [MOAR 3.1.0]
+[Info   :   BepInEx] Loading [DrakiaXYZ-GildedKeyStorage 1.6.2]
+[Info   :ModulePatch] Enabled patch RemoveSlotItemsForMapEntryPatch
+[Info   :ModulePatch] Enabled patch HideSpecialSlotGrids
+[Info   :   BepInEx] Loading [AllQuestsCheckmarks 1.2.1]
+[Info   :AllQuestsCheckmarks] Settings loaded
+[Info   :AllQuestsCheckmarks] Assets loaded
+[Info   :AllQuestsCheckmarks] AllQuestsCheckmarks Fika module loaded
+[Info   :ModulePatch] Enabled patch QuestClassPatch
+[Info   :ModulePatch] Enabled patch ProfileSelectionPatch
+[Info   :ModulePatch] Enabled patch QuestItemViewPanelPatch
+[Info   :ModulePatch] Enabled patch ItemSpecificationPanelPatch
+[Info   :ModulePatch] Enabled patch UpdateApplicationLanguagePatch
+[Info   :AllQuestsCheckmarks] AllQuestCheckmarks by ZGFueDkx version 1.2.1 started
+[Message:   BepInEx] Chainloader startup complete
+[Info   :ModulePatch] Enabled patch AmandsPlayerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsNVGPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsApplyNVGPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsHBAOPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsPrismEffectsPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsOpticSightPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsCameraClassPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsmethod_25Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsTacticalComboVisualControllerPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurPatch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsMethod_7Patch
+[Info   :ModulePatch] Enabled patch AmandsGraphicsFastBlurHitPatch
+[Warning:  HarmonyX] AmandsBattleUIScreenPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3575, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner) instead of void EFT.UI.BattleUIScreen<EFT.UI.EftBattleUIScreen+GClass3575, EFT.UI.Screens.EEftScreenType>::Show(EFT.GamePlayerOwner owner).
+[Info   :ModulePatch] Enabled patch AmandsBattleUIScreenPatch
+[Info   :ModulePatch] Enabled patch AmandsEffectsControllerPatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST]: /singleplayer/release
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/release
+[Info   :RequestHandler] [REQUEST]: /singleplayer/moddedTraders
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/moddedTraders
+[Info   :RequestHandler] [REQUEST]: /singleplayer/enableBSGlogging
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/enableBSGlogging
+[Info   :ModulePatch] Enabled patch QuestObjectiveViewPatch
+[Info   :RequestHandler] [REQUEST]: /moar/getDefaultConfig
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/getDefaultConfig
+[Info   :RequestHandler] [REQUEST]: /moar/getPresets
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/getPresets
+[Info   :RequestHandler] [REQUEST]: /moar/getServerConfigWithOverrides
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/getServerConfigWithOverrides
+[Info   :RequestHandler] [REQUEST]: /moar/getServerConfigWithOverrides
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/getServerConfigWithOverrides
+[Info   :RequestHandler] [REQUEST]: /moar/currentPreset
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/currentPreset
+[Info   :ModulePatch] Enabled patch SniperPatch
+[Info   :ModulePatch] Enabled patch AddEnemyPatch
+[Warning:  HarmonyX] RefreshLocation: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.InputSystem.InputNode::Add(EFT.InputSystem.InputNode inputNode) instead of void EFT.InputSystem.InputNode::Add(EFT.InputSystem.InputNode inputNode).
+[Info   :ModulePatch] Enabled patch RefreshLocation
+[Info   :ModulePatch] Enabled patch NotificationPatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bundles
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bundles
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/handguards/handguard_ar15_geissele_smr_mk16_135_inch.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/handguards/handguard_ar15_geissele_smr_mk16_95_inch.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/magazines/mag_m14_springfield_armory_762x51_10.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/magazines/mag_m14_springfield_armory_762x51_20.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/magazines/mag_m14_triple_k_m14_magazine_762x51_30.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/magazines/mag_m14_x_products_drum_magazine_m14_762x51_50.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/muzzle/muzzle_ar10_surefire_procomp_762_muzzle_brake_762x51.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/muzzle/muzzle_ar15_surefire_sf3p_flash_hider_556x45.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/muzzle/muzzle_ar15_surefire_sf4p_fh556rc_flash_hider_556x45.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/muzzle/muzzle_ar15_surefire_warcomp_556_556x45.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/scopes/scope_base_trijicon_acog_ta01nsn_4x32.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/scopes/scope_base_trijicon_acog_ta01nsn_4x32_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/silencers/silencer_socom_surefire_socom556_rc2_556x45.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/MCX/rattler_gb.bundle
+[Info   :BundleManager] CACHE: Loading locally leather_backpack.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/hogue_15_inch_hg_pink.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_black_green_chev.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/prt_cover_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/rotex_c_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk8_15_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_tan_amber_horseshoe.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magnifiers/t1_high_mag_combo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/midwest_nf_9_25.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/surefire_762mini2blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk8_9_5_odg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/geissele_sp_cw_t1_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_black_red_crosshair.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/mgo_240_hs.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/unity_micro_226_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr9_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_9_5u_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/stock_m16a1.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/kac_high_forward.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_tan_green_horseshoe.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/MCX/rattler_pg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR10/sfmb_762.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/MCX/rattler_base_hg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/rotex-v_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr13_5_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/cgs_sci_supp_gry.bundle
+[Info   : Fika.Core] Server version check passed. Expected: >2.4.7, received: 2.4.7
+[Info   :FikaModHandler] Loaded plugin: [Graphics] with GUID [com.Amanda.Graphics] and crc32 [982026357]
+[Info   :FikaModHandler] Loaded plugin: [Configuration Manager] with GUID [com.bepis.bepinex.configurationmanager] and crc32 [2453335703]
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/mgo_common_assets.bundle
+[Info   :FikaModHandler] Loaded plugin: [SPT.Custom] with GUID [com.SPT.custom] and crc32 [2697771812]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Singleplayer] with GUID [com.SPT.singleplayer] and crc32 [1999686428]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Core] with GUID [com.SPT.core] and crc32 [4135225510]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Debugging] with GUID [com.SPT.debugging] and crc32 [2084470248]
+[Info   :FikaModHandler] Loaded plugin: [Fika.Core] with GUID [com.fika.core] and crc32 [2588594673]
+[Info   :FikaModHandler] Loaded plugin: [HandsAreNotBusy] with GUID [com.lacyway.hanb] and crc32 [1692182991]
+[Info   :FikaModHandler] Loaded plugin: [DynamicMaps] with GUID [com.mpstark.DynamicMaps] and crc32 [3467874971]
+[Info   :FikaModHandler] Loaded plugin: [PlayerEncumbranceBar] with GUID [com.mpstark.PlayerEncumbranceBar] and crc32 [3359733944]
+[Info   :FikaModHandler] Loaded plugin: [NoBush] with GUID [com.somtam.NoBush] and crc32 [999109034]
+[Info   :FikaModHandler] Loaded plugin: [Terkoiz.Skipper] with GUID [com.terkoiz.skipper] and crc32 [2692568092]
+[Info   :FikaModHandler] Loaded plugin: [VCQL-Zones] with GUID [com.virtual.vcql] and crc32 [2260259757]
+[Info   :FikaModHandler] Loaded plugin: [gekos_api] with GUID [gekos_api_uniqueGUID] and crc32 [2102504556]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-BigBrain] with GUID [xyz.drakia.bigbrain] and crc32 [3701555121]
+[Info   :FikaModHandler] Loaded plugin: [LootingBots] with GUID [me.skwizzy.lootingbots] and crc32 [4123998962]
+[Info   :FikaModHandler] Loaded plugin: [MOAR] with GUID [MOAR.settings] and crc32 [1843351744]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-GildedKeyStorage] with GUID [xyz.drakia.gildedkeystorage] and crc32 [1890434558]
+[Info   :FikaModHandler] Loaded plugin: [AllQuestsCheckmarks] with GUID [ZGFueDkx.AllQuestCheckmarks] and crc32 [3700815292]
+[Info   :RequestHandler] [REQUEST]: /fika/client/check/mods
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/midwest_nf_13_5.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /fika/client/check/mods
+[Info   :FikaModHandler] UI Fixes is not loaded, enabling PartyInfoPanel fix
+[Info   : FikaPatch] Enabled patch PartyInfoPanel_method_3_Patch
+[Info   :BundleManager] CACHE: Loading locally usec_hat.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/sports_p1.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_12_5l_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/surefire_762ti2fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/hogue_15_inch_hg_blue.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Dots/triji_mro.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/surefire_wardenqdblk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Dots/romeo9t_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_10_5l_dfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/MCX/rattler_556_3pr.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr9_cbt.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/sports_p3.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/allen_m4_suppressor.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/surefire_wardenqdfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/str_stock_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/urx4_10_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/34mm_rof_45_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_tan_red_chev.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/g$_34mm_cap_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk8_9_5_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/b5_bravo_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/hogue_ak_pgrip_black.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magnifiers/uh1_low_mag_combo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Barrels/kac_mod2_gb.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_12_5u_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/elcan_1_5-6.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/MCX/rattler_base_hg_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/aac-m4-2000tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_10_5l_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_10f_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/Pic_Adapter_for_AK.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/rof_10mm_spacer_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally CaseBundles/golden_key_pouch.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/kac_mams.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/vortex_eleanor_1_10_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/urx4_145_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/polo_556k_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Pistol_Grips/hogue_ar_pg_blue.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/spectre_1_5_6_rmr_mount.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mcmr10_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/surefire_762ti2blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/ak12_stock.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/sag_buttstock_adapter_folding.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/b22_mount.bundle
+[Info   :BundleManager] CACHE: Loading locally Wearables/Headsets/ops_amp_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/prs_lite_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/b5_bravo_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_95_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/prt_supp_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Barter/fluke_87v.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/putnik_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Iron_Sights/sw_peak_r.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_15_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/xm177_fh.bundle
+[Info   :BundleManager] CACHE: Loading locally Barter/tamagotchi.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/bulgarian_krink_fh.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/rof2_5mm_spacer_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/twi_supp_thin.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/rof2_5mm_spacer_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Barrels/ar15_12_5_carbine.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/polo_762_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/hogue_ak_pgrip_spec_green.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/sag_mk3_gry.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Barrels/ks1_barrel.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/acog_ta44.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/reptilia_34mm_acro_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Lapua/cadex_mx1.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/geissele_smr_mk16_10_5_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Barrels/ar15_8_5.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/HK/hk_smr_14_5_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally usec_beanie.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/mft_minimalist_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Dots/acro_p2_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/urx4_10_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/34mm_rof_90_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk8_13_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/sag_mk3_plum.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Glock_Parts/thread_prot_triarc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/tube_hg.bundle
+[Info   :BundleManager] CACHE: Loading locally bear_hat.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_13_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Glock_Parts/barrel_triarc_g19_threaded.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr15_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magazines/pufgun_556_30rd_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/prt_supp_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_tan_green_chev.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/reptilia_ring_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR10/kac_ff_ras_sr25_hg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mcmr15_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Pistol_Grips/hogue_ar_pg_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/reptilia_34mm_rmr_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Uppers/sr15_upper_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/geissele_sp_l1_3_t1_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_tan_green_300.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mcmr15_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/procomp_223.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/geissele_smr_mk16_9_5_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/putnik_no_logo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/kac_triple_tap_fh.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/mro_tall.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR10/eliminator_762.bundle
+[Info   :BundleManager] CACHE: Loading locally CaseBundles/golden_keycard_case.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk8_15_odg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/midwest_ss_12_625.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/mcq_cover_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/M700/m700_16.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Glock_Parts/barrel_triarc_g19.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magnifiers/leupold_lco_high_mag_combo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Pistol_Grips/dd_pistol_grip_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magnifiers/romeo8t_high_mag_combo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/warct_556.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_47_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Dots/romeo9t_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/magpul_dt_pr_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/rof_10mm_spacer_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/hogue_stock_green.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Dots/compm5_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally CaseBundles/golden_keychain2.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/mgo_50_ch.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/rep_acro_offset_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_47_odg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_10f_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/urx4_13_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Glock_Parts/zev_optic_plate.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/midwest_ss_9_25.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/b5_bravo_odg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/putnik_oreo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/ta31_rmr_mount.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/hogue_15_inch_hg_gray.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/b9_rail.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/twi_supp.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/kac_uspt_suppressor.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/HK/hk_smr_14_5_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/prt_mcq_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mcmr13_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/hydra-mid-blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/reptilia_ring_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magnifiers/uh1_high_mag_combo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/b10_lower.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr10_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Uppers/sr15_ambi_ch_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Glock_Parts/triarc_glock_slide_textures.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/leupold_d_evo_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Barrels/sr15_16_barrel.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/huxwrks_flow_556k_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_47_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/dtech_mpi_9x19.bundle
+[Info   :BundleManager] CACHE: Loading locally CaseBundles/golden_keychain1.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/unity_scope_high.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr10_cbt.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_ii_fsp.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/maxim_cqb_gen7_stock_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/rep_acro_cowitness_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mcmr7_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr15_dw.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_12_5u_dfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Pistol_Grips/b5_pgrip.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/hogue_stock_pink.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/polo_556_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mcmr9_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/polo_556_worn.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_black_red_chev.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/unity_comp_wht.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/sharkfin_dong_hg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/midwest_ss_10_5.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_13l_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_13u_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Dots/compm5.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_13_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/stock_m16a2.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR10/sr25_14_5.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magnifiers/exps3_low_mag_combo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/maxim_cqb_gen7_stock_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_black_red_300.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/prs_lite_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr9_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/surefire_556mini2fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/rotex_c_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/unity_comp_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/huxwrks_flow_556k_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Iron_Sights/matech_rear_sight.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/b&t_rbs_c_762_sf.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magnifiers/leupold_lco_low_mag_combo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/cgs_sci_supp_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/hogue_15_inch_hg_red.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr15_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/ta31_ard.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/geissele_smr_mk16_10_5_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_12_5l_dfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/hogue_15_inch_hg_olive_green.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magazines/pufgun_556_30rd_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk8_9_5_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR10/fatman_hex_brake.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Pistol_Grips/dd_pistol_grip_brown.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr13_5_cbt.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_10_5l_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/surefire_rc3_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Bipods/harris_bp_railmount.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/gemtech_neutron_762.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/hogue_15_inch_hg_olive_drab.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/unity_comp_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_tan_green_cross.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR10/midwest_ar10_12_625.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/urx4_1075_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_13u_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/deadair_wolverine_14mm.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/hogue_3_hole_rail.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/mcq_cover_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/sag_mk3_grn.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/hogue_15_inch_hg_black.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/urx4_85_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/polo_762_worn.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/surefire_556mini2blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/surefire_762rc2blk.bundle
+[Info   :BundleManager] CACHE: Loading locally assets/content/items/mods/sights_rear/sight_rear_ar15_colt_carry_hande_std.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/stock_midwestindustriesfixed.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mcmr9_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/sag_mk3_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_9_5u_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_13l_dfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/MCX/rattler_rec_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/huxwrks_556k_fh.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/vortex_golden_eagle.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/lepold_d_evo.bundle
+[Info   :BundleManager] CACHE: Loading locally Wearables/Headsets/ops_amp_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_9_5u_dfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/surefire_rc2_556_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/nightforce_nxs_3_5_25.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr9_dw.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/vortex_eleanor_1_10_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/hogue_ak_pgrip_red.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Lapua/barrel_ax_accuracy_international_508mm_762x51_pb.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/surefire_rc3_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/MCX/rattler_5_5.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk8_15_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/mro_short.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/geissele_smr_mk16_13_5_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/magpul_dt_pr_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_9_5l_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/prt_cover_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/urx4_145_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR10/midwest_ar10_15.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk8_13_odg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR10/warcomp_762.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_95_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/polo_556k_worn.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/prt_mcq_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/reptilia_34mm_mount_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/putnik_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/hogue_ak_pgrip_green.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/MCX/rattler_pg_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ks1_hg_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_black_green_horseshoe.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/unity_ftc_riser_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/reptilia_34mm_mount_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Barrels/16in_riflegas_diss.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Dots/steiner_r1x.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Glock_Parts/receiver_glock_triarc_mos.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/rotex-v_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mcmr7_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Wearables/Headsets/ops_amp_blk_camo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/rep_acro_193_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Dots/acro_p2_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/hogue_15_inch_hg_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/rotex_d_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/dd_sguard_762.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/MCX/rattler_300_3pr.bundle
+[Info   :BundleManager] CACHE: Loading locally Barter/boston_record.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/hogue_stock_blue.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Barrels/16_in_faux_dissapator_barrel.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/atacr_f1_1-8.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_15_odg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/mgo_308_hs.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Glock_Parts/sight_front_glock_triarc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_12_5l_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/rep_acro_193_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Wearables/Facemasks/m53a1_gas_mask.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/str_stock_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_black_green_300.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_9_5l_dfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/stock_car15.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magazines/ar15_straight_mag_20.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/vortex_spitfire_5x.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_9_5l_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Dots/cmore_railway_red_dot.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Bipods/bipod_stud_mlok.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Glock_Parts/sight_rear_glock_triarc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/hydra-mid-fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_black_red_horseshoe.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/socom338ti.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Glock_Parts/sight_front_glock_supp_height_triarc.bundle
+[Info   :BundleManager] CACHE: Loading locally Wearables/Headsets/ops_amp_tan_camo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ks1_hg_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk8_7_odg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/micro_offset.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/polo_762_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Barrels/ks1_gb.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/polo_556k_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/cgs_sci_fh.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr13_5_dw.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/g$_sp34mm_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/34mm_rof_45_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/rep_acro_cowitness_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/eliminator_556.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/hand_stop.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/ak74_upper_hg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR10/sf3p_762.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Lapua/barrel_ax_accuracy_international_660mm_762x51_pb.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/unity_ftc_riser_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_10_5u_dfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/HK/hk_smr_10_5_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/mgo_556_ch.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/magpul_dt_carbine_stock_grn.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/rep_acro_offset_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/maxim_cqb_buttpad_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/HK/hk_smr_10_5_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/sfmb_556.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_tan_red_horseshoe.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mcmr10_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/mgo_308_ch.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_tan_red_300.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Lapua/sfmb338.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/reptilia_34mm_rmr_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/unity_comp_grn.bundle
+[Info   :BundleManager] CACHE: Loading locally bear_beanie.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_tan_red_cross.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Bipods/atlas_bp.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR10/gt_etm_3p.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/sports_rail_section_long.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/hogue_stock_black.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/g$_sp34mm_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk8_7_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/hogue_ak_pgrip_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr13_5_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Barrels/ar15_12_5_mid.bundle
+[Info   :BundleManager] CACHE: Loading locally Ammo/9mm_export_900_can.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/carry_handle_pic_mount.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr10_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/aac-m4-2000blk.bundle
+[Info   :BundleManager] CACHE: Loading locally CaseBundles/golden_keychain3.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/strike_cookie_cutter.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_12_5u_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/ak100_hg_top.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/unity_comp_brn.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magnifiers/exps3_high_mag_combo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/reptilia_34mm_acro_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/maxim_cqb_buttpad_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/surefire_762mini2fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/MCX/rattler_rec_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr15_cbt.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/mft_minimalist_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/dtk2_mb.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Uppers/sr15_upper_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Glock_Parts/sight_rear_glock_suppressor_height_triarc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/dd_sguard_556.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/deadair_wolverine_keymount.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/rotex_c_gry.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/geissele_sp_l1_3_t1_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/nf4-16f1.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/burris_rt6_scope.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_black_amber_horseshoe.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_ii_fspl.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/rotex_d_gry.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/magpul_dt_carbine_stock_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/b5_bravo_cb.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR10/sr25_11_5.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/sfct_556.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/surefire_762rc2fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Iron_Sights/sw_peak_fr.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/g$_34mm_cap_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mcmr8_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magazines/magpul_emag_30.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/acro_pic_mount_short.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Barrels/ar15_11_5.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/sag_mk3_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/kac_high_reverse.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/midwest_ss_7_5.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_black_amber_300.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_13u_dfde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/urx4_13_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk8_13_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Pistol_Grips/dd_pistol_grip_black.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/hogue_stock_grey.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_10_5u_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Pistol_Grips/hogue_ar_pg_grey.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/cgs_sci_supp_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_95_odg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_10f_odg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/midwest_nf_10_5.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/MCX/rattler_canebrake.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/ta44_mount.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Bipods/magpul_bp.bundle
+[Info   :BundleManager] CACHE: Loading locally Barter/bebop_record.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mfr10_dw.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/34mm_rof_90_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/urx4_1075_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/MCX/mcx_droop_stock.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/unity_micro_226_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Muzzle_Devices/rotex_d_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magazines/x_15_ar15_50rd_drum.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/mgo_50_hs.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/geissele_sp_cw_t1_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_black_green_cross.bundle
+[Info   :BundleManager] CACHE: Loading locally Barter/sony_walkman.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk8_7_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Pistol_Grips/hogue_ar_pg_green.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Dots/lepold_lco.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_10_5u_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/spectre_1_5_6_killflash.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_15_ddc.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Mounts/carry_handle_gooseneck.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/b5_bravo_grey.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Stocks/magpul_dt_carbine_stock_tan.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Pistol_Grips/dd_pistol_grip_gray.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Pistol_Grips/hogue_ar_pg_black.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AK/sports_p2.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Uppers/sr15_ambi_ch_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mcmr13_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/rotex-v_gry.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Lapua/barrel_ax_accuracy_international_610mm_762x51_pb.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/ris_iii_13l_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/urx4_85_blk.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Scopes/ta31_tan_amber_300.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Pistol_Grips/hogue_ar_pg_pink.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mcmr8_fde.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/AR15_Handguards/mk4_13_odg.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Magnifiers/romeo8t_low_mag_combo.bundle
+[Info   :BundleManager] CACHE: Loading locally Mods/Suppressors/polo_556_blk.bundle
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   : FikaPatch] Server version: SPT 3.11.3 - 7a9a34
+[Info   : Fika.Core] Waiting for locales to be ready...
+[Info   :DynamicMaps] Trying to attach to MapScreen
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\spt\SPTark\BepInEx\plugins\DynamicMaps\Maps\Customs_TarkovDev\Customs_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Customs (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\spt\SPTark\BepInEx\plugins\DynamicMaps\Maps\Factory_TarkovDev\Factory_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Factory (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\spt\SPTark\BepInEx\plugins\DynamicMaps\Maps\GroundZero_TarkovDev\GroundZero_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Ground Zero (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\spt\SPTark\BepInEx\plugins\DynamicMaps\Maps\Interchange_TarkovDev\Interchange_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Interchange (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\spt\SPTark\BepInEx\plugins\DynamicMaps\Maps\Labs_TarkovDev\Labs_TarkovDev.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Labs (TarkovDev)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\spt\SPTark\BepInEx\plugins\DynamicMaps\Maps\Lighthouse_TarkovData\Lighthouse_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Lighthouse (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\spt\SPTark\BepInEx\plugins\DynamicMaps\Maps\Reserve_TarkovData\Reserve_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Reserve (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\spt\SPTark\BepInEx\plugins\DynamicMaps\Maps\Shoreline_TarkovData\Shoreline_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Shoreline (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\spt\SPTark\BepInEx\plugins\DynamicMaps\Maps\Streets_TarkovData\Streets_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Streets of Tarkov (TarkovData)
+[Info   :DynamicMaps] Trying to load MapDef from path: D:\spt\SPTark\BepInEx\plugins\DynamicMaps\Maps\Woods_TarkovData\Woods_TarkovData.jsonc
+[Info   :DynamicMaps] Loaded MapDef with display name: Woods (TarkovData)
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Customs_TarkovDev/Layers/customs_level_3.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Factory_TarkovDev/Layers/factory_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/GroundZero_TarkovDev/Layers/ground_zero_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Interchange_TarkovDev/Layers/interchange_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Labs_TarkovDev/Layers/labs_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Lighthouse_TarkovData/Layers/lighthouse_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Reserve_TarkovData/Layers/reserve_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Reserve_TarkovData/Layers/reserve_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Shoreline_TarkovData/Layers/shoreline_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_2.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_3.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Streets_TarkovData/Layers/streets_layer_4.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Woods_TarkovData/Layers/woods_layer_-1.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Woods_TarkovData/Layers/woods_layer_0.png
+[Info   :DynamicMaps] Precaching sprite: Maps/Woods_TarkovData/Layers/woods_layer_1.png
+[Info   :AllQuestsCheckmarks] Loding locale: en
+[Info   : Fika.Core] Locales are ready!
+[Info   : Fika.Core] Cached local IPs: 0.0.0.0, 192.168.4.13
+[Info   :AllQuestsCheckmarks] Requesting quests data...
+[Info   :RequestHandler] [REQUEST]: /all-quests-checkmarks/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /all-quests-checkmarks/quests
+[Info   :AllQuestsCheckmarks] Parsing quests data...
+[Info   :LootingBots] Initializing item appraiser
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Message: gekos_api] Found the asset
+[Error  :AllQuestsCheckmarks] Attempted to remove non-existing quest 657315df034d76585f032e01 from quest data!
+[Error  :AllQuestsCheckmarks] Attempted to remove non-existing quest 657315df034d76585f032e01 from quest data!
+[Error  :AllQuestsCheckmarks] Attempted to remove non-existing quest 5936d90786f7742b1420ba5b from quest data!
+[Error  :AllQuestsCheckmarks] Attempted to remove non-existing quest 657315e1dccd301f1301416a from quest data!
+[Error  :AllQuestsCheckmarks] Attempted to remove non-existing quest 657315ddab5a49b71f098853 from quest data!
+[Error  :AllQuestsCheckmarks] Attempted to remove non-existing quest 657315e270bb0b8dba00cc48 from quest data!
+[Error  :AllQuestsCheckmarks] Attempted to remove non-existing quest 657315e270bb0b8dba00cc48 from quest data!
+[Error  :AllQuestsCheckmarks] Attempted to remove non-existing quest 66058cb22cee99303f1ba067 from quest data!
+[Error  :AllQuestsCheckmarks] Attempted to remove non-existing quest 657315e4a6af4ab4b50f3459 from quest data!
+[Error  :AllQuestsCheckmarks] Attempted to remove non-existing quest 5d2495a886f77425cd51e403 from quest data!
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :NetManagerUtils] FikaGameObject has been created!
+[Info   :NetManagerUtils] FikaServer has started!
+[Info   :Fika.Server] Starting server with SendRate: 20
+[Info   :NetManagerUtils] Creating CoopHandler...
+[Info   :Fika.Server] Started Fika Server
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
+[Info   :AllQuestsCheckmarks] Items cache built. Total items in cache: 91
+[Info   :  CoopGame] Location: Woods
+[Info   :      MOAR] Attempting spawnzone updates
+[Info   :      MOAR] Spawnszone updates complete
+[Info   :HandsAreNotBusy] Added HANB Component to player: Arahkni
+[Info   :NetManagerUtils] Setting up game variables...
+[Info   :  CoopGame] Adding debug component...
+[Info   :  CoopGame] Local player created
+[Info   :ModulePatch] Enabled patch AmandsPainkillerAddEffectPatch
+[Info   :ModulePatch] Enabled patch AmandsPainkillerDeleteEffectPatch
+[Info   :ModulePatch] Enabled patch AmandsPainTogglePatch
+[Info   :  CoopGame] Starting task to wait for host to start the raid.
+[Info   :Fika.Server] Connection established with 98.243.197.245:56135, id: 0
+[Info   :  CoopGame] Generating and initializing weather...
+[Info   :  CoopGame] Setting Season to: Spring
+[Info   :CoopHandler] AddClientToBotEnemies: Yeehaw
+[Info   : Fika.Core] Retrieving Core settings
+[Warning:ModulePatch] __instance.BotHalloweenEvent._spawner is null skip Activate
+[Info   :ModulePatch] __instance.BotHalloweenEvent._spawner is not null run Activate
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/maxCap/Woods
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/maxCap/Woods
+[Info   :ModulePatch] Set max bot cap for: Woods from: 36 to: 20
+[Info   :  CoopGame] Waiting for other players to finish loading...
+[Info   :  CoopGame] All players are loaded, continuing...
+[Warning: Fika.Core] FreeCameraController::Awake: Failed to cache BattleUI
+[Info   :  CoopGame] MatchingType: GroupLeader, Raid Code: 7FG69S
+[Info   :RequestHandler] [REQUEST]: /singleplayer/scav/traitorscavhostile
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/scav/traitorscavhostile
+[Error  :  CoopGame] SyncTransitControllers: TransitController was null!
+[Info   :RequestHandler] [REQUEST]: /all-quests-checkmarks/active-quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /all-quests-checkmarks/active-quests
+[Info   :DynamicMaps] Trying to attach peek component to BattleUI
+[Info   :  CoopGame] [SERVER] SpawnPoint: 899b7a3d-325a-4dc0-b032-0bfab87cb023, InfiltrationPoint: House
+[Info   :RequestHandler] [REQUEST]: /moar/announcePreset
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/announcePreset
+[Info   :RequestHandler] [REQUEST]: /vcql/zones/get
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /vcql/zones/get
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
+[Warning:ModulePatch] Cached ai brain weights in client
+[Warning:ModulePatch] Updated spt bot Slickboi: pmcBEAR to use: assault brain
+[Warning:ModulePatch] Updated spt bot AGX: pmcBEAR to use: crazyAssaultEvent brain
+[Warning:ModulePatch] Updated spt bot Hobbes: pmcUSEC to use: crazyAssaultEvent brain
+[Warning:ModulePatch] Updated spt bot OkaMoez: pmcUSEC to use: pmcUSEC brain
+[Info   :DynamicMaps] MapScreen: Loading map Woods (TarkovData)
+[Warning:DynamicMaps] FollowingTransform for TransformMapMarker has been disabled without removing the map marker
+[Warning:ModulePatch] Updated spt bot IcyClawz: pmcUSEC to use: bossTagilla brain
+[Warning:ModulePatch] Updated spt bot JaydanCan: pmcBEAR to use: pmcBot brain
+[Error  :LootingBots] ([pmcBEAR] Bot1) Has been stuck trying to reach: ScavBP. Ignoring
+[Warning:ModulePatch] Updated spt bot rukira: pmcUSEC to use: pmcUSEC brain
+[Warning:ModulePatch] Updated spt bot devilwalker: pmcBEAR to use: exUsec brain
+[Warning:ModulePatch] Updated spt bot Nyahahahaha: pmcUSEC to use: pmcUSEC brain
+[Error  :LootingBots] ([pmcBEAR] Bot4) Has been stuck trying to reach: Moonshine. Ignoring
+[Error  :    NoBush] System.NullReferenceException: Object reference not set to an instance of an object
+  at NoBushESP.NoBushPatch+<>c__DisplayClass3_0.<PatchPostfix>b__0 (System.String exclusion) [0x00000] in <5d0a57b7299e4489a226a866a3a77186>:0 
+  at System.Linq.Enumerable.Any[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x0002c] in <a314714511a14f84b853c03efd8682b8>:0 
+  at NoBushESP.NoBushPatch.PatchPostfix (EFT.BotOwner bot) [0x0010c] in <5d0a57b7299e4489a226a866a3a77186>:0 
+[Warning:ModulePatch] Updated spt bot Doge: pmcBEAR to use: followerBully brain
+[Error  :LootingBots] ([assaultGroup] Bot19) Has been stuck trying to reach: Tube. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot18) Has been stuck trying to reach: Milk. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot20) Has been stuck trying to reach: Tube. Ignoring
+[Warning:ModulePatch] Updated spt bot Pycak: pmcUSEC to use: followerBully brain
+[Error  :LootingBots] ([assaultGroup] Bot19) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot4) Has been stuck trying to reach: Cond. milk. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot21) Has been stuck trying to reach: Buried barrel cache. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot20) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot4) Has been stuck trying to reach: Cat. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot11) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot4) Has been stuck trying to reach: Elite. Ignoring
+[Warning:ModulePatch] Updated spt bot Jeo: pmcBEAR to use: bossKnight brain
+[Error  :LootingBots] ([assaultGroup] Bot19) Has been stuck trying to reach: Oatflakes. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot20) Has been stuck trying to reach: Poster. Ignoring
+[Warning: DynamicAI] Could not remove Bot14 from bots list.
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: Poster. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: F scdr.. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: Pliers. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot18) Has been stuck trying to reach: Bot14. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: Mayo. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot16) Has been stuck trying to reach: RatCola. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: Vodka. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot21) Has been stuck trying to reach: RPliers. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot25) Has been stuck trying to reach: Buried barrel cache. Ignoring
+[Warning:ModulePatch] Updated spt bot RaiRaiTheRaichu: pmcBEAR to use: assault brain
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: PSO-1. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot16) Has been stuck trying to reach: Ground cache. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot26) Has been stuck trying to reach: Buried barrel cache. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot20) Has been stuck trying to reach: PSO-1. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot19) Has been stuck trying to reach: Mayo. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot18) Has been stuck trying to reach: Kvass. Ignoring
+[Warning:ModulePatch] Updated spt bot archon0ne: pmcUSEC to use: bossTagilla brain
+[Error  :LootingBots] ([assaultGroup] Bot19) Has been stuck trying to reach: Vodka. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot18) Has been stuck trying to reach: MRE. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot19) Has been stuck trying to reach: PSO-1. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot20) Has been stuck trying to reach: Mayo. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot25) Has been stuck trying to reach: Ground cache. Ignoring
+[Warning:ModulePatch] Updated spt bot floofyyq: pmcUSEC to use: bossSanitar brain
+[Warning:ModulePatch] Updated spt bot Goewert: pmcBEAR to use: assault brain
+[Warning:ModulePatch] Updated spt bot Trainfriend: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot InternalError_: pmcUSEC to use: exUsec brain
+[Error  :    NoBush] System.NullReferenceException: Object reference not set to an instance of an object
+  at NoBushESP.NoBushPatch+<>c__DisplayClass3_0.<PatchPostfix>b__0 (System.String exclusion) [0x00000] in <5d0a57b7299e4489a226a866a3a77186>:0 
+  at System.Linq.Enumerable.Any[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x0002c] in <a314714511a14f84b853c03efd8682b8>:0 
+  at NoBushESP.NoBushPatch.PatchPostfix (EFT.BotOwner bot) [0x0010c] in <5d0a57b7299e4489a226a866a3a77186>:0 
+[Error  :    NoBush] System.NullReferenceException: Object reference not set to an instance of an object
+  at NoBushESP.NoBushPatch+<>c__DisplayClass3_0.<PatchPostfix>b__0 (System.String exclusion) [0x00000] in <5d0a57b7299e4489a226a866a3a77186>:0 
+  at System.Linq.Enumerable.Any[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x0002c] in <a314714511a14f84b853c03efd8682b8>:0 
+  at NoBushESP.NoBushPatch.PatchPostfix (EFT.BotOwner bot) [0x0010c] in <5d0a57b7299e4489a226a866a3a77186>:0 
+[Error  :    NoBush] System.NullReferenceException: Object reference not set to an instance of an object
+  at NoBushESP.NoBushPatch+<>c__DisplayClass3_0.<PatchPostfix>b__0 (System.String exclusion) [0x00000] in <5d0a57b7299e4489a226a866a3a77186>:0 
+  at System.Linq.Enumerable.Any[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x0002c] in <a314714511a14f84b853c03efd8682b8>:0 
+  at NoBushESP.NoBushPatch.PatchPostfix (EFT.BotOwner bot) [0x0010c] in <5d0a57b7299e4489a226a866a3a77186>:0 
+[Error  :LootingBots] ([pmcBEAR] Bot4) Has been stuck trying to reach: EWR. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot4) Has been stuck trying to reach: Mayo. Ignoring
+[Error  :    NoBush] System.NullReferenceException: Object reference not set to an instance of an object
+  at NoBushESP.NoBushPatch+<>c__DisplayClass3_0.<PatchPostfix>b__0 (System.String exclusion) [0x00000] in <5d0a57b7299e4489a226a866a3a77186>:0 
+  at System.Linq.Enumerable.Any[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] predicate) [0x0002c] in <a314714511a14f84b853c03efd8682b8>:0 
+  at NoBushESP.NoBushPatch.PatchPostfix (EFT.BotOwner bot) [0x0010c] in <5d0a57b7299e4489a226a866a3a77186>:0 
+[Error  :LootingBots] ([pmcBEAR] Bot30) Has been stuck trying to reach: Ground cache. Ignoring
+[Warning:ModulePatch] Updated spt bot ShadowXtrex: pmcUSEC to use: bossKilla brain
+[Error  :LootingBots] ([pmcUSEC] Bot32) Has been stuck trying to reach: Poster. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot18) Has been stuck trying to reach: Bot21. Ignoring
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
+[Warning:ModulePatch] Cached ai brain weights in client
+[Warning:ModulePatch] Updated spt bot Sanote: pmcBEAR to use: assault brain
+[Warning:ModulePatch] Updated spt bot Bloom: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot IhanaMies: pmcBEAR to use: bossSanitar brain
+[Warning:ModulePatch] Updated spt bot Gizzy: pmcBEAR to use: assault brain
+[Warning:ModulePatch] Updated spt bot SlejmUr: pmcBEAR to use: exUsec brain
+[Error  :LootingBots] ([pmcBEAR] Bot37) Has been stuck trying to reach: Ratchet. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot24) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot31) Has been stuck trying to reach: Clock. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot36) Has been stuck trying to reach: Therm.. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot29) Has been stuck trying to reach: Ground cache. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot31) Has been stuck trying to reach: Toolset. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot30) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot24) Has been stuck trying to reach: Bot22. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot31) Has been stuck trying to reach: Propane. Ignoring
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Info   :Fika.Server] Peer disconnected 56135, info: RemoteConnectionClose
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Error  :LootingBots] ([pmcUSEC] Bot31) Has been stuck trying to reach: Cat. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot36) Has been stuck trying to reach: RatCola. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot38) Has been stuck trying to reach: Xeno. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot31) Has been stuck trying to reach: Ryzhy. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot25) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot24) Has been stuck trying to reach: AKM. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot29) Has been stuck trying to reach: Jacket. Ignoring
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Error  :AllQuestsCheckmarks] Attempted to remove non-existing quest 5fd9fad9c1ce6b1a3b486d00 from quest data!
+[Info   :Fika.Server] ..:: Fika Server Session Statistics ::..
+[Info   :Fika.Server] Sent packets: 80081
+[Info   :Fika.Server] Sent data: 56.91 MB
+[Info   :Fika.Server] Received packets: 28062
+[Info   :Fika.Server] Received data: 2.72 MB
+[Info   :Fika.Server] Packet loss: 0%
+[Info   :NetManagerUtils] Destroyed FikaServer
+[Info   :AllQuestsCheckmarks] Requesting quests data...
+[Info   :RequestHandler] [REQUEST]: /all-quests-checkmarks/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /all-quests-checkmarks/quests
+[Info   :AllQuestsCheckmarks] Parsing quests data...
+[Info   :AllQuestsCheckmarks] Requesting quests data...
+[Info   :RequestHandler] [REQUEST]: /all-quests-checkmarks/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /all-quests-checkmarks/quests
+[Info   :AllQuestsCheckmarks] Parsing quests data...
+[Error  :AllQuestsCheckmarks] Attempted to remove non-existing quest 5fd9fad9c1ce6b1a3b486d00 from quest data!
+[Info   :AllQuestsCheckmarks] Requesting quests data...
+[Info   :RequestHandler] [REQUEST]: /all-quests-checkmarks/quests
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /all-quests-checkmarks/quests
+[Info   :AllQuestsCheckmarks] Parsing quests data...
